@@ -6,7 +6,7 @@ The code is structured in a single Jupyter Notebook called `pipeline.ipynb`. A J
 
 The goal of the hands-on activities is to progressively populate `pipeline.ipynb` with all the basic steps of a TMS-EEG preprocessing pipeline, complementing the Python code with explanations about what it does, its scientific goal and its effect on the data (for example: _"The following code applies a low-pass filter to the data to attenuate high-frequency signals that are unlikely to be cerebral. As can be seen in the plots, the code achieves its goal... etc."_). 
 
-The hands-on activities will unfold over a series of in-person meetings with the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum). The meetings will come in pairs made by a _pre_ meeting and a corresponding _post_ meeting, interleaved by a home assignment for the students.
+The hands-on activities will unfold over a series of in-person meetings with the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum). The meetings will come in pairs made by a _pre_ meeting and a corresponding _post_ meeting, interleaved by home assignment for the students. The home assignments will count for the final exam if students choose to take the exam under Option A.
 
 - In the _pre_ meeting, Matteo will introduce a set of preprocessing steps, their scientific goal and their Python implementations. This will help revise the theory introduced in the main lectures and translate it into practice. Students will leave the meeting with working Python code provided by Matteo, but they will be free to write their own implementations should they have Python skills at the appropriate level 
 - At home, the students will run the code presented during the _pre_ meeting and comment on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells in an academic style. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 09:00 AM on the day of the _post_ meeting (that is, if the _post_ meeting is on Monday, submit your work by 09:00 AM on Monday)
@@ -20,20 +20,15 @@ A maximum of one absence to the meetings will be tolerated (though strongly disc
 
 _Pre_ and _post_ meetings will be as follows:
 
-|Topic                               |_Pre_ Meeting |_Post_ Meeting |
-|------------------------------------|--------------|---------------|
-|Installations check, general Q&A    |Single meeting on Day xx Month|
-|------------------------------------|--------------|---------------|
-|Basic preprocessing                 |Day xx Month  |Day xx Month   |
-|- Reading data                      |              |               |
-|- Interpolating the pulse artifact  |              |               |
-|- Downsampling                      |              |               |
-|- Filtering                         |              |               |
+|Topic                               |_Pre_ Meeting                 |_Post_ Meeting |
+|------------------------------------|------------------------------|---------------|
+|Installations check, general Q&A    |Single meeting on Day xx Month|None           |
+|------------------------------------|--------------|---------------|---------------|
+|Basic preprocessing    
+|<ul><li>Reading data</li><li>Interpolating the pulse artifact</li><li>Downsampling</li><li>Filtering</li></ul>             |Day xx Month  |Day xx Month   |
 |------------------------------------|--------------|---------------| 
 |Independent Component Analysis (ICA)|Day xx Month  |Day xx Month   |
-|- Rationale                         |              |               |
-|- Fitting                           |              |               |
-|- Components selection              |              |               |       
+|<ul><li>Rationale</li><li>Fitting</li><li>Components selection</li></ul>  |    
 |------------------------------------|--------------|---------------| 
 |Manual artifact rejection           |Day xx Month  |Day xx Month   |
 |------------------------------------|--------------|---------------|

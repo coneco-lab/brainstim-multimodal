@@ -12,14 +12,48 @@ The hands-on activities will unfold over a series of in-person meetings with the
 - At home, the students will run the code presented during the _pre_ meeting and comment on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells in an academic style. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 09:00 AM on the day of the _post_ meeting (that is, if the _post_ meeting is on Monday, submit your work by 09:00 AM on Monday)
 - In the _post_ meeting, Matteo will provide the students with the correct comments and lead an in-depth discussion of any issues (technical or theoretical) that may arise. After the _post_ meeting, Matteo will update this repository with the latest version of `pipeline.ipynb`, containing his own comments for future reference
 
-Everyone is free to attend the meetings. However, students that want to take the exam under Option A must attend all meetings and submit all home assignments by the deadline. A maximum of one absence to the meetings will be tolerated &mdash; though it is strongly discouraged. Late submissions will not be tolerated in the absence of a documented cause such as debilitating illnesses or other accidents. 
+Everyone is free to attend the meetings, meaning that attendance does not imply a commitment to carrying out the assignments and respect the deadlines. However, students that want to take the exam under Option A _must_ attend and they _must_ submit all home assignments by the deadline. 
+
+A maximum of one absence to the meetings will be tolerated (though strongly discouraged). Late submissions will not be tolerated in the absence of a documented cause such as debilitating illness or other accidents. 
+
+## **Calendar**
 
 _Pre_ and _post_ meetings will be as follows:
 
-|Topic|Pre|Post|
-|-----|---|----|
+|Topic                               |_Pre_ Meeting |_Post_ Meeting |
+|------------------------------------|--------------|---------------|
+|Installations check, general Q&A    |Single meeting on Day xx Month|
+|------------------------------------|--------------|---------------|
+|Basic preprocessing                 |Day xx Month  |Day xx Month   |
+|- Reading data                      |              |               |
+|- Interpolating the pulse artifact  |              |               |
+|- Downsampling                      |              |               |
+|- Filtering                         |              |               |
+|------------------------------------|--------------|---------------| 
+|Independent Component Analysis (ICA)|Day xx Month  |Day xx Month   |
+|- Rationale                         |              |               |
+|- Fitting                           |              |               |
+|- Components selection              |              |               |       
+|------------------------------------|--------------|---------------| 
+|Manual artifact rejection           |Day xx Month  |Day xx Month   |
+|------------------------------------|--------------|---------------|
+|Assessing & computing a TEP         |Day xx Month  |Day xx Month   |
 
 
+## **Installation Instructions**
 
+To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below _before the start of the hands-on activities_:
 
+1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions at points 1-2 (that is, until _Create a new Python environment_ included)
+2. In a terminal, make sure that your new environment is activated (that is, make sure you have executed `conda activate course-env` without errors). Then, run the following code:
+
+```
+cd <insert name of the directory where you want to save this project>
+git clone https://github.com/coneco-lab/brainstim-multimodal.git
+conda env create -f brainstim-multimodal-env.yml
+```
+---
+
+Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
+matteo [dot] dematola [at] unitn [dot] it
 

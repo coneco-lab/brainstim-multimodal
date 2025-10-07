@@ -32,12 +32,16 @@ A maximum of one absence to the meetings will be tolerated (though strongly disc
 Meetings will be as follows:
 
 0. **Installations check, general Q&As** &mdash; dd/mm/yyyy at Place
-1. **Basic preprocessing:** rationale, interpolating the pulse artifact, downsampling, filtering &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place 
-2. **Independent component analysis (ICA):** rationale, fitting, components selection &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
-3. **Manual artifact rejection:** rationale and execution &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
-4. **Assessing & computing a TEP** &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+1. **Basic preprocessing:** rationale, interpolating the pulse artifact, downsampling, filtering 
+_Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place 
+2. **Independent component analysis (ICA):** rationale, fitting, components selection 
+_Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+3. **Manual artifact rejection:** rationale and execution
+ _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+4. **Assessing & computing a TEP** 
+_Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
 
-## **Installation Instructions**
+## **Installation instructions**
 
 To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below _before the start of the hands-on activities_:
 

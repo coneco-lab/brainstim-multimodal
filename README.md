@@ -31,15 +31,16 @@ A maximum of one absence to the meetings will be tolerated (though strongly disc
 
 Meetings will be as follows:
 
-0. **Installations check, general Q&As** &mdash; dd/mm/yyyy at Place
+0. **Installations check, general Q&As** 
+dd/mm/yyyy at Place
 1. **Basic preprocessing:** rationale, interpolating the pulse artifact, downsampling, filtering 
-_Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place 
-2. **Independent component analysis (ICA):** rationale, fitting, components selection 
-_Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
-3. **Manual artifact rejection:** rationale and execution
- _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+- _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place 
+2. **Independent component analysis (ICA):** rationale, fitting, components selection  
+- _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+3. **Manual artifact rejection:** rationale and execution 
+ - _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
 4. **Assessing & computing a TEP** 
-_Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+- _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
 
 ## **Installation instructions**
 

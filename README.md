@@ -2,6 +2,8 @@
 
 This repository contains Python code for hands-on TMS-EEG preprocessing activities offered as part of the [Brain Stimulation & Multimodal Electrophysiological Recording](https://unitn.coursecatalogue.cineca.it/insegnamenti/2025/50512_653501_96292/2011/50513/10168?annoOrdinamento=2011&coorte=2024) course at the [Master's Degree in Cognitive Science &mdash; Cognitive Neuroscience track](https://corsi.unitn.it/en/cognitive-science/program/overview), University of Trento (academic year 2025/2026). 
 
+## General facts
+
 The code is structured in a single Jupyter Notebook called `pipeline.ipynb`. A Jupyter Notebook is an interactive document that contains a mix of static text and executable code. The static text can be enriched with mathematical formulas and media such as images or videos, making notebooks a powerful tool to write and present code with explanations.
 
 The goal of the hands-on activities is to progressively populate `pipeline.ipynb` with all the basic steps of a TMS-EEG preprocessing pipeline, complementing the Python code with explanations about what it does, its scientific goal and its effect on the data (for example: _"The following code applies a low-pass filter to the data to attenuate high-frequency signals that are unlikely to be cerebral. As can be seen in the plots, the code achieves its goal... etc."_). 
@@ -18,22 +20,13 @@ A maximum of one absence to the meetings will be tolerated (though strongly disc
 
 ## **Calendar**
 
-_Pre_ and _post_ meetings will be as follows:
+Meetings will be as follows:
 
-|Topic                               |_Pre_ Meeting                 |_Post_ Meeting |
-|------------------------------------|------------------------------|---------------|
-|Installations check, general Q&A    |Single meeting on Day xx Month|None           |
-|------------------------------------|--------------|---------------|---------------|
-|Basic preprocessing    
-|<ul><li>Reading data</li><li>Interpolating the pulse artifact</li><li>Downsampling</li><li>Filtering</li></ul>             |Day xx Month  |Day xx Month   |
-|------------------------------------|--------------|---------------| 
-|Independent Component Analysis (ICA)|Day xx Month  |Day xx Month   |
-|<ul><li>Rationale</li><li>Fitting</li><li>Components selection</li></ul>  |    
-|------------------------------------|--------------|---------------| 
-|Manual artifact rejection           |Day xx Month  |Day xx Month   |
-|------------------------------------|--------------|---------------|
-|Assessing & computing a TEP         |Day xx Month  |Day xx Month   |
-
+0. Installations check, general Q&As &mdash; dd/mm/yyyy at Place
+1. Basic preprocessing: rationale, interpolating the pulse artifact, downsampling, filtering &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place 
+2. Independent component analysis (ICA): rationale, fitting, components selection &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+3. Manual artifact rejection: rationale and execution &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
+4. Assessing & computing a TEP &mdash; _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place
 
 ## **Installation Instructions**
 
@@ -47,8 +40,11 @@ cd <insert name of the directory where you want to save this project>
 git clone https://github.com/coneco-lab/brainstim-multimodal.git
 conda env create -f brainstim-multimodal-env.yml
 ```
----
+
+If you have problems with any of the steps above you are welcome to seek assistance from Matteo. Meeting 0 will be purposedly dedicated to this. To make the meeting smoother, students are warmly invited to try making their installations at home _before_ the meeting.
+
+## Contacts
 
 Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
-matteo [dot] dematola [at] unitn [dot] it
 
+:mailbox: matteo [dot] dematola [at] unitn [dot] it

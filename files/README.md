@@ -1,0 +1,1 @@
+This folder will contain supplementary files (e.g., images to display in the README)

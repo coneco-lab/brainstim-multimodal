@@ -8,8 +8,8 @@ The repository was created and is maintained by the course tutor Matteo De Matol
 root/
 ├── docs/                      # text documents with supplementary materials & tutorials
 ├── files/                     # supplementary files (e.g., images)
-├── README.md                  # the file you are reading. contains all the practical information you need
-├── brainstim-multimodal.yml   # file to install all the necessary software automatically (see below)
+├── README.md                  # the file you are reading, the information you need
+├── brainstim-multimodal.yml   # installation file see below
 └── pipeline.ipynb             # the actual python code for the hands-on activity
 ```
 
@@ -28,7 +28,7 @@ All the code is contained in a single Jupyter Notebook called `pipeline.ipynb`. 
 
 The goal of the hands-on activity is to progressively populate `pipeline.ipynb` with all the basic steps of a TMS-EEG preprocessing pipeline, complementing the actual code with explanations about what it does, its scientific goal and its effects on the data (for example: _"The following code applies a low-pass filter to the data to attenuate high-frequency noise. As can be seen in the plots, the filter does this and that to the signal"_). 
 
-The hands-on activities will unfold over a series of in-person meetings with the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum). The meetings will come in pairs: a _pre_ meeting and a corresponding _post_ meeting, interleaved by home assignments for the students. The home assignments will count for the final exam if students choose to take the exam under Option A (cf. [_For the exam_](#for-the-exam)).
+The hands-on activities will unfold over a series of in-person meetings with the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum). The meetings will come in pairs: a _pre_ meeting and a corresponding _post_ meeting, interleaved by home assignments for the students. The home assignments will count for the final exam if students choose to take the exam under Option A (see [For the exam](#for-the-exam)).
 
 - In the _pre_ meeting, Matteo will introduce a set of preprocessing steps, their scientific goal and their Python implementations. This will help revise the theory introduced by prof. Belardinelli and translate it into practice. Students will leave the meeting with working Python code provided by Matteo, but they will be free to write their own implementation should they have Python skills at the appropriate level. In this case, the appropriateness of their implementation will be evaluated for the exam
 - At home, the students will run the code presented during the _pre_ meeting and comment extensively on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells in an academic style. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 09:00 AM on the day of the _post_ meeting (that is, if the _post_ meeting is on Monday, submit your work by 09:00 AM on Monday)
@@ -82,10 +82,24 @@ Meetings will be as follows:
 
 ## **Installation instructions**
 
-To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below _before the start of the hands-on activities_:
+To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
 
-1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 (_Install Jupyter in the base environment_) included 
-2. In a terminal,run the following code:
+### Without using Git
+
+1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
+2. In this repository, click on the green `Code` tab that you see top right as in the image below. Once you have done that, click on `Download ZIP`
+3. Once the download is complete, extract the folder in a directory of your choice
+4. Open a terminal and run the following code:
+
+```
+cd <the directory of the code that you have downloaded and extracted>
+conda env create -f brainstim-multimodal.yml
+```
+
+### Using Git
+
+1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
+2. In a terminal, run the following code:
 
 ```
 cd <insert name of the directory where you want to save this project>
@@ -94,11 +108,7 @@ cd brainstim-multimodal
 conda env create -f brainstim-multimodal.yml
 ```
 
-You should see outputs like the following: 
-
-
-
-If you have problems with any of the steps above you are welcome to seek assistance from Matteo. Meeting 0 will be purposedly dedicated to this. To make the meeting smoother, students are warmly invited to try making their installations at home _before_ the meeting.
+If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this. 
 
 ## Contacts
 

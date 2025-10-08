@@ -92,7 +92,7 @@ To participate in the hands-on activities, you will need a laptop with a working
 4. Open a terminal and run the following code:
 
 ```
-cd <the directory of the code that you have downloaded and extracted>
+cd <insert the directory where you have extracted the zipped folder>
 conda env create -f brainstim-multimodal.yml
 ```
 
@@ -102,7 +102,7 @@ conda env create -f brainstim-multimodal.yml
 2. In a terminal, run the following code:
 
 ```
-cd <insert name of the directory where you want to save this project>
+cd <insert the directory where you want to save this project>
 git clone https://github.com/coneco-lab/brainstim-multimodal.git
 cd brainstim-multimodal
 conda env create -f brainstim-multimodal.yml

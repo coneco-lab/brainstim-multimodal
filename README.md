@@ -23,16 +23,16 @@ As explained in class, students that attend the Brain Stimulation & Multimodal E
 
 Everyone is free to attend the meetings, meaning that attendance does not imply a commitment to carrying out the assignments and respect the deadlines. 
 
-However, students that want to take the exam under Option A _must_ attend the _pre-post_ meetings and they _must_ submit all home assignments by the deadline. 
+However, students that want to take the exam under Option A **must** attend the _pre-post_ meetings and they **must** submit all home assignments by the deadline. 
 
-A maximum of one absence to the meetings will be tolerated (though strongly discouraged). Late submissions will not be tolerated in the absence of a documented cause such as debilitating illness or other accidents. 
+A maximum of one absence to the meetings will be tolerated (though discouraged). Late submissions will not be tolerated in the absence of a documented cause such as debilitating illness or other accidents. 
 
 ## **Calendar**
 
 Meetings will be as follows:
 
 0. **Installations check, general Q&As** 
-dd/mm/yyyy at Place
+    - dd/mm/yyyy at Place
 1. **Basic preprocessing:** rationale, interpolating the pulse artifact, downsampling, filtering 
     - _Pre_ meeting dd/mm/yyyy at Place, _Post_ meeting dd/mm/yyyy at Place 
 2. **Independent component analysis (ICA):** rationale, fitting, components selection  
@@ -46,8 +46,8 @@ dd/mm/yyyy at Place
 
 To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below _before the start of the hands-on activities_:
 
-1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions at points 1-2 (that is, until _Create a new Python environment_ included)
-2. In a terminal, make sure that your new environment is activated (that is, make sure you have executed `conda activate course-env` without errors). Then, run the following code:
+1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point _1. Install Jupyter in the base environment_ included 
+2. In a terminal,run the following code:
 
 ```
 cd <insert name of the directory where you want to save this project>
@@ -55,10 +55,14 @@ git clone https://github.com/coneco-lab/brainstim-multimodal.git
 conda env create -f brainstim-multimodal-env.yml
 ```
 
+You should see outputs like the following: 
+
+
+
 If you have problems with any of the steps above you are welcome to seek assistance from Matteo. Meeting 0 will be purposedly dedicated to this. To make the meeting smoother, students are warmly invited to try making their installations at home _before_ the meeting.
 
 ## Contacts
 
-Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
+:question: Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
 
 :mailbox: matteo [dot] dematola [at] unitn [dot] it

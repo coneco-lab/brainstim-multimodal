@@ -87,7 +87,8 @@ To participate in the hands-on activities, you will need a laptop with a working
 ### Without using Git
 
 1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
-2. In this repository, click on the green `Code` tab that you see top right as in the image below. Once you have done that, click on `Download ZIP`
+2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
+![Download ZIP](files/where-to-download-zip.png)
 3. Once the download is complete, extract the folder in a directory of your choice
 4. Open a terminal and run the following code:
 

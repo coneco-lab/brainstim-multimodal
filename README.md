@@ -2,14 +2,14 @@
 
 This repository contains Python code for the hands-on TMS-EEG preprocessing activity offered as part of the [Brain Stimulation & Multimodal Electrophysiological Recording](https://unitn.coursecatalogue.cineca.it/insegnamenti/2025/50512_653501_96292/2011/50513/10168?annoOrdinamento=2011&coorte=2024) course, taught by prof. Carlo Miniussi and prof. Paolo Belardinelli at the [Master's Degree in Cognitive Science](https://corsi.unitn.it/en/cognitive-science/program/overview), University of Trento (academic year 2025/2026).
 
-The repository was created and is maintained by the course tutor Matteo De Matola. Its structure is described by the diagram below:
+The repository was created and is maintained by the course tutor Matteo De Matola.
 
 ```bash
 root/
 ├── docs/                      # text documents with supplementary materials & tutorials
 ├── files/                     # supplementary files (e.g., images)
 ├── README.md                  # the file you are reading, the information you need
-├── brainstim-multimodal.yml   # installation file see below
+├── brainstim-multimodal.yml   # installation file (see below)
 └── pipeline.ipynb             # the actual python code for the hands-on activity
 ```
 

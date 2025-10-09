@@ -17,7 +17,8 @@ root/
 
 - [General facts](#general-facts)
 - [For the exam](#for-the-exam)
-    - [Evaluation criteria](#evaluation-criteria)
+    - [Attendance rules for the hands-on activity](#attendance-rules-for-the-hands-on-activity)
+    - [Evaluation criteria for the hands-on activity](#evaluation-criteria-for-the-hands-on-activity)
 - [Calendar](#calendar)
 - [Installation instructions](#installation-instructions)
 - [Contacts](#contacts)
@@ -38,8 +39,14 @@ The hands-on activities will unfold over a series of in-person meetings with the
 
 As explained in class, students that attend the Brain Stimulation & Multimodal Electrophysiological Recording course have two options: 
 
-1. **Option A:** write a grant proposal for a study involving brain stimulation and multimodal electrophysiological recording, attend the hands-on preprocessing activity and carry out the related assignments. Assignments for the hands-on activity must be submitted to Matteo as described above (that is, by 09:00 AM on the day of _post_ meetings), while the grant proposal can be submitted to prof. Miniussi (with prof. Belardinelli in cc) at any moment between the end of the course and `{insert date}`. The final grade will be the `{average/weighted average}` of the two grades and will be registered in the 2026 Summer session 
+1. **Option A:** carry out two practical activities &mdash; one for Miniussi's part, one for Belardinelli's part:
+    - For Miniussi's part (Brain Stimulation), write a grant proposal for a study involving brain stimulation and multimodal electrophysiological recording. This part is not addressed by the present repository
+    - For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted to Matteo as described above (that is, by 09:00 AM on the day of _post_ meetings). 
 2. **Option B:** take an oral exam about the whole program in any exam session
+
+For students that choose Option A, the final grade will be the `{average/weighted average}` of the two grades (Miniussi's and Belardinelli's).
+
+### Attendance rules for the hands-on activity
 
 Everyone is free to attend the meetings, meaning that attendance does not imply a commitment to carrying out the assignments and respect the deadlines. 
 
@@ -47,7 +54,7 @@ However, students that want to take the exam under Option A **must** attend the 
 
 A maximum of one absence to the meetings will be tolerated (though discouraged). Late submissions will not be tolerated in the absence of a documented cause such as debilitating illness or other accidents. 
 
-### Evaluation criteria _(work in progress)_
+### Evaluation criteria for the hands-on activity 
 
 Students that decide to take the exam under Option A will be evaluated for their hands-on activities. Students are not expected to enter the course with advanced coding skills, so their ability to read and write the code will **not** be an evaluation criterion. 
 

@@ -13,7 +13,7 @@ root/
 └── pipeline.ipynb             # the actual python code for the hands-on activity
 ```
 
-**Jump to**
+## Jump to
 
 - [General facts](#general-facts)
 - [For the exam](#for-the-exam)
@@ -57,9 +57,9 @@ What **will** be evaluated is:
     - One absence: -2 points (unless the absence is counterbalanced by excellence in the assignments)
 2. **Submitting all the assignments by the deadlines**:  8 points
     - Students that miss one deadline lose the chance to take the exam under Option A. Clearly, they can still take the exam under Option B
-3. **Mentioning and explaining all the relevant theoretical concepts in the assignments**: 12 points
-4. **Clear formal writing**: 4 points  
-4. **_Cum laude_ awarded if one or more of the following conditions are met**: 
+3. **Mentioning and explaining all the relevant theoretical concepts in the assignments**: maximum 12 points
+4. **Clear formal writing**: maximum 4 points  
+4. **_Cum laude_ awarded upon reaching 30/30, if one or more of the following conditions are met**: 
     - Continued active participation during _pre_/_post_ meetings
     - Ability to find and explain non-trivial connections between concepts 
     - Ability to write one's own implementations or extend/improve Matteo's
@@ -84,7 +84,7 @@ Meetings will be as follows:
 
 To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
 
-### Without using Git
+### Option 1: Without using Git
 
 1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
 2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
@@ -97,7 +97,7 @@ cd <insert the directory where you have extracted the zipped folder>
 conda env create -f brainstim-multimodal.yml
 ```
 
-### Using Git
+### Option 2: Using Git
 
 1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
 2. In a terminal, run the following code:

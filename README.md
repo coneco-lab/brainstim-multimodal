@@ -44,7 +44,7 @@ As explained in class, students that attend the Brain Stimulation & Multimodal E
     - For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted to Matteo as described above (that is, by 09:00 AM on the day of _debriefings_)
 2. **Option B:** take an oral exam about the whole program in any exam session
 
-For students that choose Option A, the final grade will be the `{average/weighted average}` of the two grades (Miniussi's and Belardinelli's).
+For students that choose Option A, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
 
 ### Attendance rules for the hands-on activity
 

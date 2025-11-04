@@ -32,7 +32,7 @@ The goal of the hands-on activity is to progressively populate `pipeline.ipynb` 
 The hands-on activities will unfold over a series of in-person meetings with the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum). The meetings will come in pairs: a _briefing_ and a corresponding _debriefing_, interleaved by home assignments for the students. The home assignments will count for the final exam if students choose to take the exam under Option A (see [For the exam](#for-the-exam)).
 
 - In the _briefing_, Matteo will introduce a set of preprocessing steps, their scientific goal and their Python implementations. This will help revise the signal processing theory introduced by prof. Belardinelli and translate it into practice. Students will leave the meeting with working Python code provided by Matteo, but they will be free to write their own implementation should they have Python skills at the appropriate level. In this case, the appropriateness of their implementation will be evaluated for the exam
-- At home, the students will run the code presented during the _briefing_ and comment extensively on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells in an academic style. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 09:00 AM on the day of the _debriefing_ (that is, if the _debriefing_ is on Monday, submit your work by 09:00 AM on Monday)
+- At home, the students will run the code presented during the _briefing_ and comment extensively on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells in an academic style. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 08:00 AM on the day of the _debriefing_ (that is, if the _debriefing_ is on Monday, submit your work by 08:00 AM on Monday)
 - In the _debriefing_, Matteo will provide the students with the correct comments and lead an in-depth discussion of any issues (technical or theoretical) that may arise. After the _debriefing_, Matteo will update this repository with his own version of `pipeline.ipynb`, containing the correct comments for future reference and comparison
 
 ## For the exam
@@ -41,7 +41,7 @@ As explained in class, students that attend the Brain Stimulation & Multimodal E
 
 1. **Option A:** carry out two practical activities &mdash; one for Miniussi's part, one for Belardinelli's part:
     - For Miniussi's part (Brain Stimulation), write a grant proposal for a study involving brain stimulation and multimodal electrophysiological recordings. This part is not addressed by the present repository
-    - For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted to Matteo as described above (that is, by 09:00 AM on the day of _debriefings_)
+    - For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted to Matteo as described above 
 2. **Option B:** take an oral exam about the whole program in any exam session
 
 For students that choose Option A, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
@@ -78,15 +78,15 @@ What **will** be evaluated is:
 Meetings will be as follows:
 
 0. **Installations check, general Q&As** 
-    - dd/mm/yyyy at Place
+    - 18/11/2025 at 15:00 (Room 7)
 1. **Basic preprocessing:** rationale, interpolating the pulse artifact, downsampling, filtering 
-    - _Briefing_ dd/mm/yyyy at Place, _Debriefing_ dd/mm/yyyy at Place 
-2. **Independent component analysis (ICA):** rationale, fitting, components selection  
-    - _Briefing_ dd/mm/yyyy at Place, _Debriefing_ dd/mm/yyyy at Place
+    - _Briefing_ 21/11/2025 at 08:30 (Room 3), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
+2. **Independent components analysis (ICA):** rationale, fitting, components selection  
+    - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
 3. **Manual artifact rejection:** rationale and execution 
-    - _Briefing_ dd/mm/yyyy at Place, _Debriefing_ dd/mm/yyyy at Place
+    - _Briefing_ 05/12/2025 at 08:30 (Room 3), _Debriefing_ 12/12/2025 at 08:30 (Room 3)
 4. **Assessing & computing a TEP** 
-    - _Briefing_ dd/mm/yyyy at Place, _Debriefing_ dd/mm/yyyy at Place
+    - _Briefing_ 12/12/2025 at 08:30 (Room 3), _Debriefing_ in writing after 19 December 2025
 
 ## **Installation instructions**
 

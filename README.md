@@ -8,9 +8,10 @@ The repository was created and is maintained by the course tutor Matteo De Matol
 root/
 ├── docs/                      # text documents with supplementary materials & tutorials
 ├── files/                     # supplementary files (e.g., images)
+├── scripts/                   # a full pipeline structured as Python scripts
 ├── README.md                  # the file you are reading, the information you need
 ├── brainstim-multimodal.yml   # installation file (see below)
-└── pipeline.ipynb             # the actual python code for the hands-on activity
+└── pipeline.ipynb             # the actual Python code to use for the hands-on activity
 ```
 
 ## Jump to
@@ -48,7 +49,7 @@ For students that choose Option A, the final grade will be the weighted average 
 
 ### Attendance rules for the hands-on activity
 
-Everyone is free to attend the meetings, meaning that attendance does not imply a commitment to carrying out the assignments and respect the deadlines. 
+Everyone is free to attend the meetings, meaning that attendance does not imply a commitment to carrying out the assignments and respecting the deadlines. 
 
 However, students that want to take the exam under Option A **must**:
 - Attend _briefings_ and _debriefings_ 

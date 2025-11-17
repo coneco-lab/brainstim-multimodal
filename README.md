@@ -23,6 +23,7 @@ root/
     - [Submission instructions](#submission-instructions)
 - [Calendar](#calendar)
 - [Installation instructions](#installation-instructions)
+- [Downloading data](#downloading-data)
 - [Contacts](#contacts)
 
 ## General facts

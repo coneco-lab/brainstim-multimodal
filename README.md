@@ -20,6 +20,7 @@ root/
 - [For the exam](#for-the-exam)
     - [Attendance rules for the hands-on activity](#attendance-rules-for-the-hands-on-activity)
     - [Evaluation criteria for the hands-on activity](#evaluation-criteria-for-the-hands-on-activity)
+    - [Submission instructions](#submission-instructions)
 - [Calendar](#calendar)
 - [Installation instructions](#installation-instructions)
 - [Contacts](#contacts)
@@ -74,13 +75,24 @@ What **will** be evaluated is:
     - Ability to write one's own implementations or extend/improve Matteo's
     - Clearly demonstrated interest in the subject, beyond the minimum required  
 
+### Submission instructions
+
+Students have two alternative ways to submit their work:
+
+1. **Without using Git/GitHub:** students that do not use Git/GitHub can download this repository as described below and, every time there is a deadline, send their own copy of `pipeline.ipynb` to Matteo via email using their University address. In this case, please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
+2. **Using Git/GitHub:** students that use Git/GitHub can fork this repository, work on their own copy of `pipeline.ipynb`, and push their changes to their fork. At each deadline, Matteo will check the GitHub of the students who chose to work under this option and look for an updated copy of `pipeline.ipynb` 
+
+The two submission methods are equivalent: you are free to choose based on your taste. What matters is that you do not miss the deadlines. 
+
+:pushpin: **Note:** while the two submission methods are equally valid, this might be a good time to learn the basics of Git/GitHub. If you are interested, see [Reproducible Workflows](/docs/reproducible-workflows.md) for more.
+
 ## **Calendar**
 
 Meetings will be as follows:
 
 0. **Installations check, general Q&As** 
     - 18/11/2025 at 15:00 (Room 7)
-1. **Basic preprocessing:** rationale, interpolating the pulse artifact, downsampling, filtering 
+1. **Basic preprocessing:** rationale, interpolating the pulse artifact, filtering 
     - _Briefing_ 21/11/2025 at 08:30 (Room 3), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
 2. **Independent components analysis (ICA):** rationale, fitting, components selection  
     - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
@@ -104,7 +116,10 @@ To participate in the hands-on activities, you will need a laptop with a working
 ```
 cd <insert the directory where you have extracted the zipped folder>
 conda env create -f brainstim-multimodal.yml
+python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
 ```
+
+Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window and you should be all set!
 
 ### Option 2: Using Git
 
@@ -116,9 +131,12 @@ cd <insert the directory where you want to save this project>
 git clone https://github.com/coneco-lab/brainstim-multimodal.git
 cd brainstim-multimodal
 conda env create -f brainstim-multimodal.yml
+python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
 ```
 
-If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this. 
+Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window and you should be all set!
+
+:raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this. 
 
 ## Contacts
 

@@ -9,4 +9,5 @@ dependencies:
   - scipy==1.11.4
   - mne==1.10.2
   - matplotlib==3.8.2
+  - ipykernel
   - pip

@@ -99,7 +99,7 @@ Meetings will be as follows:
     - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
 3. **Manual artifact rejection:** rationale and execution 
     - _Briefing_ 05/12/2025 at 08:30 (Room 3), _Debriefing_ 12/12/2025 at 08:30 (Room 3)
-4. **Assessing & computing a TEP** 
+4. **Computing & assessing a TEP** 
     - _Briefing_ 12/12/2025 at 08:30 (Room 3), _Debriefing_ in writing after 19 December 2025
 
 ## **Installation instructions**

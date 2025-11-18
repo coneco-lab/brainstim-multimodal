@@ -94,7 +94,7 @@ Meetings will be as follows:
 0. **Installations check, general Q&As** 
     - 18/11/2025 at 15:00 (Room 7)
 1. **Basic preprocessing:** rationale, interpolating the pulse artifact, filtering 
-    - _Briefing_ 21/11/2025 at 08:30 (Room 3), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
+    - _Briefing_ 20/11/2025 at 15:00 (Room 12), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
 2. **Independent components analysis (ICA):** rationale, fitting, components selection  
     - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
 3. **Manual artifact rejection:** rationale and execution 
@@ -115,7 +115,7 @@ To participate in the hands-on activities, you will need a laptop with a working
 4. Open a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows) and run the following code:
 
 ```
-cd <insert the directory where you have extracted the zipped folder>
+cd insert the directory where you have extracted the zipped folder
 conda env create -f brainstim-multimodal.yml
 python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
 ```
@@ -128,7 +128,7 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 2. In a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows), run the following code:
 
 ```
-cd <insert the directory where you want to save this project>
+cd insert the directory where you want to save this project
 git clone https://github.com/coneco-lab/brainstim-multimodal.git
 cd brainstim-multimodal
 conda env create -f brainstim-multimodal.yml

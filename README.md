@@ -140,7 +140,19 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 :raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this. 
 
 ## **Downloading data**
-Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. 
+Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. Download the entire `data` folder and extract it in `brainstim-multimodal` (that is, the folder that contains your code). The outcome should be: 
+
+```bash
+brainstim-multimodal/
+├── data/
+├── docs/                   
+├── files/                  
+├── scripts/                  
+├── README.md                 
+├── brainstim-multimodal.yml   
+└── pipeline.ipynb             
+```
+
 
 ## Contacts
 

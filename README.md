@@ -115,7 +115,7 @@ To participate in the hands-on activities, you will need a laptop with a working
 4. Open a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows) and run the following code:
 
 ```
-cd insert the directory where you have extracted the zipped folder
+cd <insert the directory where you have extracted the zipped folder>
 conda env create -f brainstim-multimodal.yml
 python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
 ```
@@ -128,7 +128,7 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 2. In a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows), run the following code:
 
 ```
-cd insert the directory where you want to save this project
+cd <insert the directory where you want to save this project>
 git clone https://github.com/coneco-lab/brainstim-multimodal.git
 cd brainstim-multimodal
 conda env create -f brainstim-multimodal.yml

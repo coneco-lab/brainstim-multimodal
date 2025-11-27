@@ -45,9 +45,9 @@ As explained in class, students that attend the Brain Stimulation & Multimodal E
 1. **Option A:** carry out two practical activities &mdash; one for Miniussi's part, one for Belardinelli's part:
     - For Miniussi's part (Brain Stimulation), write a grant proposal for a study involving brain stimulation and multimodal electrophysiological recordings. This part is not addressed by the present repository
     - For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted to Matteo as described above 
-2. **Option B:** take an oral exam about the whole program in any exam session
+2. **Option B:** take an oral exam about Miniussi's part and one about Belardinelli's part, in any exam session
 
-For students that choose Option A, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
+In both cases, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
 
 ### Attendance rules for the hands-on activity
 
@@ -80,7 +80,7 @@ What **will** be evaluated is:
 
 Students have two alternative ways to submit their work:
 
-1. **Without using Git/GitHub:** students that do not use Git/GitHub can download this repository as described below and, every time there is a deadline, send their own copy of `pipeline.ipynb` to Matteo via email using their University address. In this case, please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
+1. **Without using Git/GitHub:** students that do not use Git/GitHub can download this repository as described below and, every time there is a deadline, send their own copy of `pipeline.ipynb` to Matteo via email using their University address. Please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
 2. **Using Git/GitHub:** students that use Git/GitHub can fork this repository, work on their own copy of `pipeline.ipynb`, and push their changes to their fork. At each deadline, Matteo will check the GitHub of the students who chose to work under this option and look for an updated copy of `pipeline.ipynb` 
 
 The two submission methods are equivalent: you are free to choose based on your taste. What matters is that you do not miss the deadlines. 
@@ -91,9 +91,9 @@ The two submission methods are equivalent: you are free to choose based on your 
 
 Meetings will be as follows:
 
-0. **Installations check, general Q&As** 
+0. **Installations check, general Q&As** :white_check_mark:
     - 18/11/2025 at 15:00 (Room 7)
-1. **Basic preprocessing:** rationale, interpolating the pulse artifact, filtering 
+1. **Basic preprocessing:** rationale, interpolating the pulse artifact, filtering :white_check_mark:
     - _Briefing_ 20/11/2025 at 15:00 (Room 12), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
 2. **Independent components analysis (ICA):** rationale, fitting, components selection  
     - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)

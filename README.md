@@ -95,9 +95,9 @@ Meetings will be as follows:
     - 18/11/2025 at 15:00 (Room 7)
 1. **Basic preprocessing:** rationale, interpolating the pulse artifact, filtering :white_check_mark:
     - _Briefing_ 20/11/2025 at 15:00 (Room 12), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
-2. **Independent components analysis (ICA):** rationale, fitting, components selection  
+2. **Independent components analysis (ICA):** rationale, fitting, components selection :white_check_mark:
     - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
-3. **Manual artifact rejection:** rationale and execution 
+3. **Manual artifact rejection:** rationale and execution :hourglass_flowing_sand:
     - _Briefing_ 05/12/2025 at 08:30 (Room 3), _Debriefing_ 12/12/2025 at 08:30 (Room 3)
 4. **Computing & assessing a TEP** 
     - _Briefing_ 12/12/2025 at 08:30 (Room 3), _Debriefing_ in writing after 19 December 2025

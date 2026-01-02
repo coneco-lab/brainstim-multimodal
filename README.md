@@ -2,7 +2,7 @@
 
 This repository contains Python code for the hands-on TMS-EEG preprocessing activity offered as part of the [Brain Stimulation & Multimodal Electrophysiological Recording](https://unitn.coursecatalogue.cineca.it/insegnamenti/2025/50512_653501_96292/2011/50513/10168?annoOrdinamento=2011&coorte=2024) course, taught by prof. Carlo Miniussi and prof. Paolo Belardinelli at the [Master's Degree in Cognitive Science](https://corsi.unitn.it/en/cognitive-science), University of Trento (academic year 2025/2026).
 
-The repository was created and is maintained by the course tutor Matteo De Matola.
+The repository was created and is maintained by the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum).
 
 ```bash
 root/
@@ -97,9 +97,9 @@ Meetings will be as follows:
     - _Briefing_ 20/11/2025 at 15:00 (Room 12), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
 2. **Independent components analysis (ICA):** rationale, fitting, components selection :white_check_mark:
     - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
-3. **Manual artifact rejection:** rationale and execution :hourglass_flowing_sand:
+3. **Manual artifact rejection:** rationale and execution :white_check_mark:
     - _Briefing_ 05/12/2025 at 08:30 (Room 3), _Debriefing_ 12/12/2025 at 08:30 (Room 3)
-4. **Computing & assessing a TEP** 
+4. **Computing & assessing a TEP** :white_check_mark:
     - _Briefing_ 12/12/2025 at 08:30 (Room 3), _Debriefing_ in writing after 19 December 2025
 
 ## **Installation instructions**

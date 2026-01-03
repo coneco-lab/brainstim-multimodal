@@ -85,7 +85,7 @@ Students have two alternative ways to submit their work:
 
 The two submission methods are equivalent: you are free to choose based on your taste. What matters is that you do not miss the deadlines. 
 
-:pushpin: **Note:** while the two submission methods are equally valid, this might be a good time to learn the basics of Git/GitHub. If you are interested, see [Reproducible Workflows](/docs/reproducible-workflows.md) for more.
+:pushpin: **Note:** while the two submission methods are equally valid, this might be a good time to learn the basics of Git/GitHub. If you are interested, you can follow this [Git Tutorial](https://github.com/coneco-lab/git-tutorial) for more.
 
 ## **Calendar**
 
@@ -108,7 +108,7 @@ To participate in the hands-on activities, you will need a laptop with a working
 
 ### Option 1: Without using Git
 
-1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
+1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_). **Do not go any further than point 1**.
 2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
 ![Download ZIP](files/where-to-download-zip.png)
 3. Once the download is complete, extract the folder in a directory of your choice
@@ -124,7 +124,7 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 
 ### Option 2: Using Git
 
-1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_) 
+1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_). **Do not go any further than point 1**.
 2. In a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows), run the following code:
 
 ```

@@ -1,5 +1,5 @@
-# Good Programming Practices
-## Tips & Tricks to Write Code That Makes Sense
+# Good Programming Practices :computer:
+## Tips & Tricks to Write Code That Makes Sense 
 
 In academic settings, people tend to write code with function in mind: they have a goal to achieve and the time spent coding must lead to that goal only. This strategy can be rewarding once results start coming in, but rewards can be even larger if we also consider _structure_ and _style_. Code written with no attention to structure or style can be slow to run and difficult to read, with negative effects on its efficiency and reusability. This means that a preprocessing pipeline can run in days instead of hours, or that code written today will not be understood tomorrow &mdash; by colleagues, students, readers of our papers, or our future selves. 
 

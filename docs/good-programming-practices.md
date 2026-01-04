@@ -152,7 +152,7 @@ def interpolate_pulse_cubic_spline(eeg_data, events_array, interpolate_from, int
 		print(f"Processing event {event_number}...")
 		event_time = int(event[0])
 		artifact_window_min = event_time - pre_pulse_points
-		artifact_window_max = event_time + post_pulse_pointss
+		artifact_window_max = event_time + post_pulse_points
 		artifact_mask = np.ones(shape=raw_eeg_time_series.shape[1], 
 								dtype=bool)
 		artifact_mask[artifact_window_min:artifact_window_max] = False

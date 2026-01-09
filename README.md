@@ -4,6 +4,8 @@ This repository contains Python code for the hands-on TMS-EEG preprocessing acti
 
 The repository was created and is maintained by the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum).
 
+## Repository structure
+
 ```bash
 root/
 ├── docs/                      # text documents with supplementary materials & tutorials
@@ -112,7 +114,7 @@ To participate in the hands-on activities, you will need a laptop with a working
 2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
 ![Download ZIP](files/where-to-download-zip.png)
 3. Once the download is complete, extract the folder in a directory of your choice
-4. Open a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows) and run the following code:
+4. Open a terminal (if Linux/MacOS) or Anaconda Prompt (if Windows) and run the following code:
 
 ```
 cd <insert the directory where you have extracted the zipped folder>
@@ -125,7 +127,7 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 ### Option 2: Using Git
 
 1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_). **Do not go any further than that**.
-2. In a terminal (with Linux/MacOS) or Anaconda Prompt (with Windows), run the following code:
+2. In a terminal (if Linux/MacOS) or Anaconda Prompt (if Windows), run the following code:
 
 ```
 cd <insert the directory where you want to save this project>

@@ -4,7 +4,7 @@ This repository contains Python code for the hands-on TMS-EEG preprocessing acti
 
 The repository was created and is maintained by the course tutor [Matteo De Matola](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum).
 
-## Repository structure
+**Repository structure**
 
 ```bash
 root/

@@ -1,17 +1,18 @@
 # Good Programming Practices :computer:
 ## Tips & Tricks to Write Code That Makes Sense 
 
-In academic settings, people tend to write code with function in mind: they have a goal to achieve and the time spent coding must lead to that goal only. This strategy can be rewarding once results start coming in, but rewards can be even larger if we also consider _structure_ and _style_. Code written with no attention to structure or style can be slow to run and difficult to read, with negative effects on its efficiency and reusability. This means that a preprocessing pipeline can run in days instead of hours, or that code written today will not be understood tomorrow &mdash; by colleagues, students, readers of our papers, or our future selves. 
+In academic settings, people tend to write code with function in mind: they have a scientific goal to achieve and the time spent coding must lead to that goal only. This strategy can be rewarding once results start coming in, but rewards can be even larger by considering _structure_ and _style_. Code written with no attention to structure or style can be slow to run and difficult to read, with negative effects on its efficiency and reusability. This means that a preprocessing pipeline can run in days instead of hours, or that code written today will not be understood tomorrow &mdash; by colleagues, students, readers of our papers, or our future selves. 
 
 The readability and understandability of code are particularly important. Code is not merely any tool: it is the implementation of the actual data analysis. Therefore, the inability to read previously written code is the inability to understand and re-run previous data analyses, which is detrimental to the [reproducibility](https://forrt.org/glossary/english/reproducibility/) of scientific results. The same applies to code that implements behavioural experiments, data transfer between different hardware, and anything else that might occur in a neuroscientific setting. 
 
-Actions that result in efficient, readable, and reusable code are known as _good programming practices_ (GPPs). GPPs vary between languages and communities: Matlab GPPs can be different from Python GPPs, and neuroscience coders might follow different conventions than engineering coders. However, some practices that impact readability and usability are equally valid across languages and domains. Those practices are _scripting_, _modularity_, _parametrization_, and _documentation_. 
+Actions that result in efficient, readable and reusable code that produces reproducible results are known as _good programming practices_ (GPPs). GPPs vary between languages and communities: Matlab GPPs can be different from Python GPPs, and neuroscience coders might follow different conventions than engineering coders. However, some practices that impact readability and usability are equally valid across languages and domains. Those practices are _scripting_, _modularity_, _parametrization_, _documentation_, and _using environments or containers_. 
 
 ## Jump to
 - [Scripting](#1-scripting)
 - [Modularity](#2-modularity)
 - [Parametrization](#3-parametrization)
 - [Documentation](#4-documentation)
+- [Using Environments & Containers](#5-environments--containers)
 
 ## 1. Scripting 
 This hands-on activity is based entirely on Jupyter Notebooks. A Jupyter Notebook is great in contexts where code, text and multimedia must be presented in a single document &mdash; for example teaching, demonstrations, or any other context where it is practical to accompany the code with a rich documentation. Usually, those contexts require some form of interactive use &mdash; that is, the user sits in front of the computer while the code is running, is interested in attending operations as they happen and/or can provide continuous input to the computer (for example, running a Notebook cell-by-cell). This is not the case for many real-world scenarios, like the preprocessing of data from an entire neuroimaging experiment. In those cases, users might prefer scripts because they are more lightweight, they do not depend on continuous user input, and they lend themselves to [modularity](#2-modularity).
@@ -181,3 +182,39 @@ In practice, one can see documentation as the process of going through the follo
 - Write docstrings for your functions
 - Use READMEs for project repositories
 - Give detailed information on dependencies and installation instructions 
+
+# 5. Using Environments & Containers
+The following cases occur frequently in settings where people write and share their code, including research groups where multiple people use the same analysis pipeline:
+
+- You receive code from a colleague. This code relies on a set of _dependencies_ &mdash; that is, software tools that the code is built upon. You try running the code, but you fail because you do not have the dependencies. You figure out the dependencies and install them, but find out that they have further dependencies or that you have installed a different version than was required
+- You receive code from a colleague. This code relies on a certain version of a given library, but you have another version. This causes errors in the code or yields suboptimal results because the two library versions differ   
+- You receive code from a colleague. Everything works smoothly, but you get unxpected results due to performance differences between you computing set-up and your colleague's
+
+## 5.1. Anaconda environments
+Taking part in the hands-on activity required you to install and use Anaconda. Anaconda is a package and environment manager &mdash; that is, software that orchestrates the interactions between other softwares, allowing users to run multiple computational projects on the same machine without creating conflicts between different programs. 
+
+When you install Anaconda, you get:
+
+- A Python installation
+- Easy and automated access to a huge variety of Python-based software
+- A tool to easily create, manage, and share environments
+
+The latter is perhaps Anaconda's most interesting feature. Environments are _"self-contained, isolated spaces where you can install specific versions of software, including dependencies, libraries, and Python versions. This isolation helps avoid conflicts between package versions and ensures that your projects have the exact libraries and tools they need"_ (source: Anaconda documentation &mdash; accessed December 2025). In other words, Anaconda allows researchers to partition their computer into isolated virtual compartments, making sure that each project has all the necessary software and avoiding any conflicts. 
+
+Importantly, the instructions to create environments can be easily saved and shared as text files that are commonly referred to as _environment files_. This was the role of [`brainstim-multimodal.yml`](../brainstim-multimodal.yml): specify all the software that we needed for the hands-on activity in all the appropriate version, so that you could recreate the exact same computing environment that I use with the one-line command `conda env create -f brainstim-multimodal.yml`.
+
+The [Anaconda documentation](https://www.anaconda.com/docs/main) contains detailed concepts guides and step-by-step tutorials. You can go through them to start understanding Anaconda, but you will soon find out that acquiring a working knowledge is easier and faster than one might think.  
+
+## 5.2. venv & pip
+An alternative to Anaconda is [`venv`](https://docs.python.org/3/library/venv.html), which ships directly with a [basic Python installation](https://www.python.org/downloads/). Using `venv` you can create an environment, and using the [`pip`](https://pip.pypa.io/en/stable/) package manager you can install Python packages inside it. As with Anaconda, the resulting software environments can be saved and shared through text files &mdash; which, for the `venv`-`pip` combination, are usually titled `requirements.txt` and can be installed as `pip install -r requirements.txt`.
+
+At a superficial exam, the `venv`-`pip` combination looks the same as Anaconda. However, the two products have several important differences that are well described by [this](https://www.anaconda.com/blog/understanding-conda-and-pip) document on the Anaconda website. In summary, Anaconda has three features that make it more versatile: 
+
+- It is both an environment and a package manager, so you get two services from a single software. In contrast, `venv` is only an environment manager and `pip` is only a package manager, so you need to install them both if you want full service
+- Anaconda is mainly focused on Python, but it also includes the R, Julia, and Scala programming languages and a vast array of R packages. In contrast, `venv` environments are tailored to Python projects and `pip` has only access to Python packages that are stored on the [Python Package Index (PyPI)](https://pypi.org/)
+- [According to Anaconda developers](https://www.anaconda.com/blog/understanding-conda-and-pip), Anaconda does a better job at ensuring that all installed packages have all their dependencies in order
+
+## 5.3. Containers 
+Environments created with Anaconda or `venv` are great to package the most direct dependencies of a software project, but cannot package an entire computing environment. In practice, this means that they can package your code's most immediate dependencies and make it easy to share them, but they cannot isolate your code from the surrounding computer. Therefore, your code can still be exposed to reproducibility failures related to system-wide differences between computers, that an Anaconda or `venv` environment cannot control. In these cases, it helps to use containers. 
+
+In the definition of [Moreau et al. (2023)](https://www.nature.com/articles/s43586-023-00236-9), a container is _"a self-contained and executable package that includes all of the necessary components for running a software application, such as system tools, libraries settings and the application itself, as well as any operating system components that are not provided by the host operating system. This means that containers are completely isolated from one another and the host operating system, and they can run anywhere, regardless of the environment"_. In other words, using a container minimizes the probability of encountering reproducibility failures due to differences between computers that extend beyond your analysis code and its most immediate dependencies, thereby avoiding situations where some code runs smoothly on Windows 10 but not on Windows 11, on Linux but not on MacOS, etc. Minor differences might still persist because containers cannot fully modify the way your code exploits hardware resources, but those differences should be negligible.

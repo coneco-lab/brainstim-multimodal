@@ -1,7 +1,7 @@
 # Interesting Links :link: :earth_africa:
 This document contains a commented list of links to internet resources that may be of interest to students of the Brain Stimulation & Multimodal Electrophysiological Recording course. The material contained in such resources is not necessarily part of the course bibliography and is meant to nurture the students' personal interest beyond the exam.
 
-The hands-on activity has treated TMS-EEG preprocessing using relatively advanced computational tools like modern Python libraries and Anaconda environments. In doing so, it has touched upon the topic of reproducibility (see [Reproducible Workflows](./reproducible-workflows.md) for a dedicated treatment). Therefore, links are categorised accordingly. 
+The hands-on activity has treated TMS-EEG preprocessing using relatively advanced computational tools like modern Python libraries and Anaconda environments. In doing so, it has touched upon the topic of reproducibility. Therefore, links are categorised accordingly. 
 
 ## 1. (TMS-)EEG Analysis
 ### 1.1. Papers on Methodological Issues in (TMS-)EEG Data Analysis

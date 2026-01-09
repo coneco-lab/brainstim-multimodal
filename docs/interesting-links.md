@@ -1,15 +1,22 @@
 # Interesting Links :link: :earth_africa:
-This document contains a commented list of links to internet resources that may be of interest to students of the Brain Stimulation & Multimodal Electrophysiological Recording course. The material contained in such resources is not necessarily part of the course bibliography and is meant to nurture the students' personal interest beyond the exam.
+This document contains a commented list of links to internet resources that may be of interest to Brain Stimulation & Multimodal Electrophysiological Recording students. Those resources are not necessarily part of the course bibliography and are meant to nurture the students' personal interest beyond the exam.
 
-The hands-on activity has treated TMS-EEG preprocessing using relatively advanced computational tools like modern Python libraries and Anaconda environments. In doing so, it has touched upon the topic of reproducibility. Therefore, links are categorised accordingly. 
+The hands-on activity has treated TMS-EEG preprocessing using relatively advanced computational tools like modern Python libraries and Anaconda environments. In doing so, it has touched upon the topic of reproducibility and used several data analysis tool. Therefore, links are categorised accordingly. 
 
-## 1. (TMS-)EEG Analysis
+## Table of Contents
+
+1. [EEG & TMS-EEG Analyses](#1-eeg--tms-eeg-analysis)
+2. [Python, Anaconda, & Productivity Tools](#2-python-anaconda-and-productivity-tools)
+3. [Reproducibility & Open Science Practices](#3-reproducibility--open-science-practices)
+4. [Data Analysis Resources](#4-data-analysis-resources)
+
+## 1. EEG & TMS-EEG Analysis
 ### 1.1. Papers on Methodological Issues in (TMS-)EEG Data Analysis
 - [Pion-Tonachini et al. (2019)](https://www.sciencedirect.com/science/article/abs/pii/S1053811919304185?via%3Dihub) present an automatic classifier of independent components, with the aim of reducing between-raters variability. This work is particularly valuable because of its broad scope, which includes code (accessible through MNE-Python functions), labelled data, and a [supporting website](https://labeling.ucsd.edu/tutorial). This last resource can be particularly useful for students. because it contains [written directions on how to label components](https://labeling.ucsd.edu/tutorial/labels) and a [service to practice labelling](https://labeling.ucsd.edu/tutorial/practice), with a chance to see what others do
 - [Bertazzoli et al. (2021)](https://www.sciencedirect.com/science/article/pii/S1053811921005486) show that using different preprocessing pipelines on the same TMS-EEG dataset yields significantly different results. [Botvinik-Nezer et al. (2020)](https://www.nature.com/articles/s41586-020-2314-9) had obtained similar results using fMRI data
 - Results like the previous have nurtured the debate on the reproducibility of (TMS-)EEG data analysis and emphasised the urgency to define preprocessing standards. In this respect, the following articles may be of particular interest:
     - [Brancaccio et al. (2024)](https://www.sciencedirect.com/science/article/pii/S1053811924003719) extend on Bertazzoli et al.'s approach by comparing different pipelines on simulated data with a known ground-truth &mdash; thereby estimating not only the variability between pipelines, but also the ability of each pipeline to retrieve the ground truth (something that is usually not available in neuroimaging studies)
-    - [Rogasch et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0165027022000218?via%3Dihub) discuss the challenges of TMS-EEG preprocessing and try to formulate a set of best practices. Interestingly, one of their suggestions is to use 2 or 3 different pipelines and take their variability into account when interpreting results 
+    - [Rogasch et al. (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0165027022000218?via%3Dihub) discuss the challenges of TMS-EEG preprocessing and try to formulate a set of best practices. Interestingly, one of their suggestions is to use two or three different pipelines and take the between-pipelines variability when interpreting results 
     - [Hernandez-Pavon et al. (2023)](https://www.sciencedirect.com/science/article/pii/S1935861X23016960#sec6) take it one step further, providing a more thorough discussion of all the most relevant TMS-EEG methodological issues (including those pertaining to data collection)
     - [Trübutschek (2024)](https://direct.mit.edu/jocn/article/36/2/217/118308) introduce the EEGManyPipelines initiative, which involves hundreds of researchers across the globe analysing the same EEG dataset with their preferred strategies. This is expected to provide a thorough account of variability in preprocessing practices across the globe and a robust estimate of its impact on scientific conclusions
 - [Delorme (2023)](https://www.nature.com/articles/s41598-023-27528-0) compared a set of pipelines on the same EEG dataset. His results show that sophisticated preprocessing strategies do not increase the percentage of channels showing statistically significant evoked potentials compared to applying high-pass filtering and bad channels interpolation only. This suggests that preprocessing might hide differences between conditions by inadvertently removing signal together with the noise
@@ -71,7 +78,7 @@ The following links point to learning resources for EEG data analysis and some p
 
 - Former neuroscience professor Mike X Cohen has an excellent [YouTube channel](https://www.youtube.com/@mikexcohen1/featured) where he uploads tutorials and short courses on EEG data analysis, mathematics, and data science. The New ANTS series is particularly useful as an introduction to EEG data and their analysis. Cohen is also the author of an excellent textbook, _Analyzing Neural Time Series Data_ (MIT Press), that largely overlaps with the ANTS video series
 ![](./files/new-ants.png)  
-- If you are willing to understand EEG data analysis in detail, you will need a working understanding of linear algebra concepts. To this end, the introductory course [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) by the Internet educator Grant Sanderson (also known as [3Blue1Brown](https://www.3blue1brown.com/)) can be a very good start
+- If you are willing to understand EEG data analysis in detail, you will need a working understanding of linear algebra concepts. To this end, the introductory course [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) by Grant Sanderson (also known as [3Blue1Brown](https://www.3blue1brown.com/)) can be a very good start
 - If you are particularly interested in the mechanics of time frequency analysis, you might enjoy [Seeing Circles, Sines, and Signals](https://jackschaedler.github.io/circles-sines-signals/) by Jack Schaedler. The examples are centered on sound waves, but the mathematics apply equally to electrophysiological waves
 
 # Contacts

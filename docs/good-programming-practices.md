@@ -7,12 +7,12 @@ The readability and understandability of code are particularly important. Code i
 
 Actions that result in efficient, readable and reusable code that produces reproducible results are known as _good programming practices_ (GPPs). GPPs vary between languages and communities: Matlab GPPs can be different from Python GPPs, and neuroscience coders might follow different conventions than engineering coders. However, some practices that impact readability and usability are equally valid across languages and domains. Those practices are _scripting_, _modularity_, _parametrization_, _documentation_, and _using environments or containers_. 
 
-## Jump to
-- [Scripting](#1-scripting)
-- [Modularity](#2-modularity)
-- [Parametrization](#3-parametrization)
-- [Documentation](#4-documentation)
-- [Using Environments & Containers](#5-using-environments--containers)
+## Table of Contents
+1. [Scripting](#1-scripting)
+2. [Modularity](#2-modularity)
+3. [Parametrization](#3-parametrization)
+4. [Documentation](#4-documentation)
+5. [Using Environments & Containers](#5-using-environments--containers)
 
 ## 1. Scripting 
 This hands-on activity is based entirely on Jupyter Notebooks. A Jupyter Notebook is great in contexts where code, text and multimedia must be presented in a single document &mdash; for example teaching, demonstrations, or any other context where it is practical to accompany the code with a rich documentation. Usually, those contexts require some form of interactive use &mdash; that is, the user sits in front of the computer while the code is running, is interested in attending operations as they happen and/or can provide continuous input to the computer (for example, running a Notebook cell-by-cell). This is not the case for many real-world scenarios, like the preprocessing of data from an entire neuroimaging experiment. In those cases, users might prefer scripts because they are more lightweight, they do not depend on continuous user input, and they lend themselves to [modularity](#2-modularity).

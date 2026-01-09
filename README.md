@@ -7,13 +7,14 @@ The repository was created and is maintained by the course tutor [Matteo De Mato
 :arrow_right_hook: **Repository structure**
 
 ```bash
-root/
+brainstim-multimodal/
 ├── docs/                      # text documents with supplementary materials & tutorials
 ├── files/                     # supplementary files (e.g., images)
 ├── scripts/                   # a full pipeline structured as Python scripts
 ├── README.md                  # the file you are reading, the information you need
 ├── brainstim-multimodal.yml   # installation file (see below)
-└── pipeline.ipynb             # the actual Python code to use for the hands-on activity
+├── pipeline.ipynb             # the document to use for home assignments
+└── pipeline_debriefing.ipynb  # the debriefing (published after assignment deadlines) 
 ```
 
 ## Jump to

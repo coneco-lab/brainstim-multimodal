@@ -1,3 +1,5 @@
+# **Supplementary Documents**
+
 This folder contains supplementary documents that may be of interest to students of the course. In particular: 
 
 -  [`good-programming-practices.md`](good-programming-practices.md) provides an introduction to a set of practices that can increase the quality of data analysis code, with positive impacts on its readability and reusability

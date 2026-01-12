@@ -19,3 +19,11 @@ In fact, Python has all that MATLAB has, plus something more:
 For these reasons, using Python makes a lot of sense today. The following quote from [Freeman (2015)](https://www.sciencedirect.com/science/article/pii/S0959438815000756) sums them up with more authority than I could have: 
 
 _"Although Matlab is likely the most widely used platform among neuroscientists today, it is hard to recommend as a primary analysis tool in a future of open and collaborative science. User-developed Matlab code can be shared, but Matlab itself is closed-source and expensive. Although easy to use for beginners, and perhaps useful for educational purposes, Matlab has limited or clunky support for distributed computing, or even more basic modern features like functional and object-oriented programming and continuous automated testing. These crucial features make software easier to maintain, test, collaborate on, share, and integrate with other services, especially web-based ones. More fundamentally, **as we look toward a future where research and data are to be publicly shared, it seems inappropriate to allow a single, for-profit entity to effectively tax the reproducibility of results &mdash; much in the same way for-profit journals tax the distribution of knowledge**. Finally, outside of niche applications, Matlab is much less widely used in industry data science; if we want to train students to succeed within and outside academia, we should teach them more than just Matlab"_.
+
+# Contacts
+
+For questions or comments, you can contact: 
+
+:question: Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
+
+:mailbox: matteo [dot] dematola [at] unitn [dot] it

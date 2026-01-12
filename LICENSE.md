@@ -1,6 +1,6 @@
 All the text contained in this repository, thereby including the prose contents of Markdown (.md) files or any other text files and the content of text cells in Jupyter Notebook (.ipynb) documents,
 was authored by Matteo De Matola, who shares it under the terms defined by the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0).
-Unless otherwise stated, the images found across text documents were also authored by Matteo De Matola and are also share under a CC BY-NC-ND 4.0.
+Unless otherwise stated, the images found across text documents were also authored by Matteo De Matola and are also shared under a CC BY-NC-ND 4.0 license.
 The terms of the CC BY-NC-ND 4.0 license are available at https://creativecommons.org/licenses/by-nc-nd/4.0/ and the full legal code can be read below.
 
 =======================================================================

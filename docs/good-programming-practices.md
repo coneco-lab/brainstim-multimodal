@@ -12,7 +12,7 @@ Actions resulting in readable and reusable code that yields reproducible results
 2. [Modularity](#2-modularity)
 3. [Parametrization](#3-parametrization)
 4. [Documentation](#4-documentation)
-5. [Using Environments or Containers](#5-using-environments--containers)
+5. [Using Environments or Containers](#5-using-environments-or-containers)
 
 ## 1. Scripting 
 This hands-on activity was based entirely on Jupyter Notebooks, which are great when you need to present code, text and multimedia in a single document. This usually happens in contexts like teaching or step-by-step demonstrations, which require some form of interactive use: the user sits in front of the computer, is interested in attending operations as they happen, and is continuously required to provide inputs (for example, running a notebook cell-by-cell). This is not the case for many real-world scenarios, like the preprocessing of data from an entire neuroimaging experiment. In those cases, users might prefer scripts.

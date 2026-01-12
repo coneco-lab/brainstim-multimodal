@@ -129,6 +129,7 @@ def tms_interp(eeg, events, pre, post):
 ```
 
 while this is the same function with in-code documentation:
+
 ```python
 from scipy.interpolate import CubicSpline
 

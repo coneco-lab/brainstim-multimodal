@@ -14,7 +14,7 @@ def make_directories(directories_to_make):
     """Given a list of pathnames, creates one directory each.
     
     Parameters:
-    directories_to_make -- the pathnames (list of str)
+    directories_to_make -- the pathnames (type: list[str])
     """
 
     for directory in directories_to_make:
@@ -24,8 +24,23 @@ def make_directories(directories_to_make):
         except FileExistsError:
             print(f"Did not create directory {directory} because it already existed")
             pass
+    if len(directories_to_make) == 1:
+        return directory_object
+
             
 def load_data(data_dir, file_type, subject_id):
+    """Loads EEG data from a single subject stored in a given directory.
+    Assumes that data are stored as 'data_dir/subject-xx'
+    
+    Parameters:
+    data_dir -- the data directory (type: str)
+    file_type -- the file format of eeg data. Can be "brainvision", "eeglab", or "edf" (type: str)
+    subject_id -- the subject's id (type: str)
+
+    Returns:
+    eeg_data -- loaded eeg data (type: mne.Raw)
+    """
+
     data_dir = Path(data_dir)
     if file_type == "brainvision":
         file_of_interest = list(data_dir.glob(pattern=f"{subject_id}.vhdr"))
@@ -39,6 +54,16 @@ def load_data(data_dir, file_type, subject_id):
     return eeg_data
 
 def drop_channels_set_montage(eeg_data, desired_montage):
+    """Drops non-EEG channels and sets the desired montage.
+    
+    Parameters:
+    eeg_data -- the raw eeg data (type: mne.Raw)
+    desired_montage -- the montage to apply (type: str)
+
+    Returns:
+    eeg_data -- the raw eeg data as modified by the function (type: mne.Raw)
+    """
+
     channels_to_drop = []
     for channel_name in eeg_data.ch_names:
         try:
@@ -54,18 +79,24 @@ def drop_channels_set_montage(eeg_data, desired_montage):
     return eeg_data
 
 def inspect_eeg_data(eeg_data):
+    """Plots raw eeg data for inspection, pausing the script until the plot is closed.
+    
+    Parameters:
+    eeg_data -- the data to plot (type: mne.Raw)
+    """
+    
     eeg_data.plot()
     plt.show()
   
 def interpolate_pulse_cubic_spline(eeg_data, events_array, interpolate_from, interpolate_to, out_file=None):
-    """Interpolates TMS pulse artifacts with a cubic spline, channel-by-channel. 
+    """Interpolates TMS pulse artifacts with a cubic spline, channel-by-channel. Optionally saves the result.
 
     Parameters:
     eeg_data -- continuous EEG data with artifacts to interpolate (type: mne.Raw object)
-    events_array -- an array of events. Event times are in column 0 (type: NumPy array)
+    events_array -- an array of events. Event times are in column 0 (type: np.array)
     interpolate_from -- the start time of the interpolation window, in seconds (type: float)
     interpolate_to -- the end time of the interpolation window, in seconds (type: float)
-    out_file -- the name of the output file (type: str) (default: None)
+    out_file -- the name of the output file (type: Path) (default: None)
 
     Returns:
     post_interpolation_eeg_data -- continuous EEG data with no more artefacts (type: mne.Raw object)
@@ -103,7 +134,20 @@ def interpolate_pulse_cubic_spline(eeg_data, events_array, interpolate_from, int
                                          overwrite=True)
     return post_interpolation_eeg
 
-def iir_filter_zero_phase(eeg_data, low, high, out_file):
+def iir_filter_zero_phase(eeg_data, low, high, continuous, out_file=None):
+    """Applies an IIR zero-phase non-causal filter to the data. 
+    The filter can be anything (low-pass, high-pass, or band-pass),
+    depending on the values of 'low' and 'high' (the cut frequencies).
+    Optionally saves the result.
+    
+    Parameters:
+    eeg_data -- the data to filter (type: mne.Raw or mne.Epochs)
+    low -- the lower limit of the filter's pass band (type: float)
+    high -- the upper limit of the filter's pass band (type: float)
+    continuous -- whether the input data are continuous or epoched (type: bool)
+    out_file -- the name of the output file (type: Path) (default: None)
+    """
+
     post_filtering_eeg = mne.filter.filter_data(data=eeg_data.get_data(),
                                                 sfreq=eeg_data.info["sfreq"],
                                                 l_freq=low,
@@ -112,22 +156,30 @@ def iir_filter_zero_phase(eeg_data, low, high, out_file):
                                                 iir_params=None,
                                                 copy=True,
                                                 phase="zero")
-    post_filtering_eeg = mne.io.RawArray(data=post_filtering_eeg,
-                                         info=eeg_data.info)
-    if out_file:
-        post_filtering_eeg.save(fname=out_file, 
-                                overwrite=True)
-    return post_filtering_eeg
+    if continuous:
+        post_filtering_eeg = mne.io.RawArray(data=post_filtering_eeg,
+                                             info=eeg_data.info)
+        if out_file:
+            post_filtering_eeg.save(fname=out_file, 
+                                    overwrite=True)
+        return post_filtering_eeg
+    else:
+        post_filtering_epochs = mne.EpochsArray(data=post_filtering_eeg,
+                                                info=eeg_data.info)
+        if out_file:
+            post_filtering_eeg.save(fname=out_file, 
+                                    overwrite=True)
+        return post_filtering_epochs
+
 
 def select_items(item_type):
-    """Opens an interactive pop-up window where the user can insert 
-    independent component numbers for rejection or bad channel
-    names for interpolation.
-        
+    """Opens an interactive pop-up window where the user can insert ICA component indices or bad channel names.
+    Might fail on Mac computers due to apparent incompatibility between the tkinter library and Apple graphics.
+
     Parameters:
-    item_type -- insert "ica" for component rejection, "bads" for
-    bad channel interpolation
+    item_type -- insert "ica" for component rejection, "bads" to inteprolate bad channels
     """
+
     root_window = Tk()
     root_window.withdraw()
     if item_type == "ica":
@@ -152,6 +204,15 @@ def select_items(item_type):
     return items_list
 
 def run_and_apply_ica(epochs_to_decompose, plotted_components=30, out_file=None):
+    """Runs and applies an ICA decomposition. Optionally saves the post-ICA data.
+    Leverages 'select_items()' to interactively flag independent components for rejection. 
+
+    Parameters:
+    epochs_to_decompose -- the eeg epochs to decompose through ICA (type: mne.Epochs)
+    plotted_components -- the number of independent components to plot (type: int) (default: 30)
+    out_file -- the name of the output file (type: Path) (default: None)    
+    """
+
     ica = mne.preprocessing.ICA(random_state=0)
     ica.fit(epochs_to_decompose)
     ica.plot_components(inst=epochs_to_decompose, picks=range(plotted_components))

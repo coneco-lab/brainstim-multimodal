@@ -1,7 +1,10 @@
 from pathlib import Path
 from tkinter import Tk, simpledialog
 
-import numpy as np
+import matplotlib
+import matplotlib .pyplot as plt                                 
+matplotlib.use('Qt5Agg') 
+import numpy as np 
 from scipy.interpolate import CubicSpline
 
 import mne
@@ -49,6 +52,10 @@ def drop_channels_set_montage(eeg_data, desired_montage):
     eeg_data.set_montage(montage=easycap_m1_montage,
                         on_missing="ignore")
     return eeg_data
+
+def inspect_eeg_data(eeg_data):
+    eeg_data.plot()
+    plt.show()
   
 def interpolate_pulse_cubic_spline(eeg_data, events_array, interpolate_from, interpolate_to, out_file=None):
     """Interpolates TMS pulse artifacts with a cubic spline, channel-by-channel. 

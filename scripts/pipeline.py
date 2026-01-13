@@ -1,6 +1,3 @@
-import matplotlib                                   
-matplotlib.use('Qt5Agg')                            
-
 import mne                                          
 
 import config
@@ -10,13 +7,15 @@ import utils
 utils.make_directories(directories_to_make=[config.preprocessed_dir])
 
 for subject in config.subjects_list:
+    utils.make_directories(directories_to_make=[config.preprocessed_dir + f"/{subject}"])
+
     raw_eeg_data = utils.load_data(data_dir=config.data_dir,
                                    subject_id=subject,
                                    file_type="brainvision")
 
     eeg_data = utils.drop_channels_set_montage(eeg_data=raw_eeg_data, 
                                                desired_montage=config.montage) 
-    eeg_data.plot()
+    utils.inspect_eeg_data(eeg_data=eeg_data)
 
     events_from_annotations, events_dict = mne.events_from_annotations(raw=eeg_data)
     events_from_annotations = events_from_annotations[config.first_event:]
@@ -46,6 +45,7 @@ for subject in config.subjects_list:
     post_lp_filter_epochs = mne.EpochsArray(data=post_lp_filter_eeg,
                                             info=post_ica_epochs.info,
                                             baseline=None)
+    post_lp_filter_epochs.save(fname=config.preprocessed_dir + config.output_filenames["low_pass_filter"])
 
     rereferenced_epochs, reference = mne.set_eeg_reference(inst=post_lp_filter_epochs,
                                                            ref_channels=config.new_reference) 
@@ -55,5 +55,6 @@ for subject in config.subjects_list:
     final_epochs = baseline_corrected_epochs.crop(tmin=config.CROP_EPOCHS_FROM,
                                                   tmax=config.CROP_EPOCHS_TO,
                                                   include_tmax=True)
+    final_epochs.save(fname=config.preprocessed_dir + config.output_filenames["final"])
     final_tep = final_epochs.average()
     final_tep.plot();

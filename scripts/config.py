@@ -3,11 +3,12 @@ data_dir = "data"
 preprocessed_dir = "preprocessed"
 output_filenames = {"interpolation": "post_interpolation_eeg.fif",
                     "high_pass_filter": "post_hp_filtering_eeg.fif",
-                    "ica": "post_ica_epo.fif"}
+                    "ica": "post_ica_epo.fif",
+                    "low_pass_filter": "post_lp_filtering_epo.fif",
+                    "final": "final_epo.fif"}
 
 
 montage = "easycap-M1"
-SAMPLING_RATE = 5000.0
 
 high_pass_from = 0.1
 high_pass_to = None

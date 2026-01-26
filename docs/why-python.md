@@ -1,6 +1,8 @@
 # Why Python? :snake: :computer:
 
-It is safe to say that modern neuroscience was built on MATLAB and its toolboxes: while it is hard to prove it quantitatively, it is anyone's experience that fMRI studies usually include [SPM](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)-based analyses, while most M/EEG studies include [EEGLAB](https://sccn.ucsd.edu/eeglab/)- or [Fieldtrip](https://www.fieldtriptoolbox.org/)-based analyses. People that are currently between the late-doctoral and associate-professor stages have learned to code in MATLAB, and teach MATLAB to their students. The reason behind this popularity can be safely traced to two characteristics that MATLAB has: 
+It is safe to say that modern neuroscience was built on MATLAB and its toolboxes: while it is hard to prove it quantitatively, it is anyone's experience that fMRI studies usually include [SPM](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)-based analyses, while most M/EEG studies include [EEGLAB](https://sccn.ucsd.edu/eeglab/)- or [Fieldtrip](https://www.fieldtriptoolbox.org/)-based analyses. People that are currently between the late-doctoral and associate-professor stages have learned to code in MATLAB &mdash; and teach MATLAB to their students. 
+
+MATLAB's popularity across the neuroscience community can be safely traced to the two main features of this programing language: 
 
 - **Readability:** compared to languages that were populare before (like [C](https://en.wikipedia.org/wiki/C_(programming_language)) or [Fortran](https://en.wikipedia.org/wiki/Fortran)), MATLAB is easier to read and write
 - **Matrix-friendliness:** MATLAB makes it easy to work with matrices, and neuroscience data are usually just that. For example, behavioural data are usually a table with one row per subject and one column per variable, while EEG data are matrices with one row per channel and one column per timepoint

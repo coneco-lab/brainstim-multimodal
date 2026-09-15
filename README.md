@@ -22,9 +22,9 @@ brainstim-multimodal/
     - [Attendance rules for the hands-on activity](#attendance-rules-for-the-hands-on-activity)
     - [Evaluation criteria for the hands-on activity](#evaluation-criteria-for-the-hands-on-activity)
     - [Submission instructions](#submission-instructions)
-- [Calendar](#calendar)
+<!-- - [Calendar](#calendar)
 - [Installation instructions](#installation-instructions)
-- [Downloading data](#downloading-data)
+- [Downloading data](#downloading-data) -->
 - [Contacts](#contacts)
 
 ## General facts
@@ -89,7 +89,7 @@ The two submission methods are equivalent: you are free to choose based on your 
 
 ## **Calendar**
 
-> [:building_construction:  WORK IN PROGRESS! :building_construction:]
+> [!NOTE]
 > Students will be notified via Moodle once the calendar becomes available
 
 <!-- Meetings will be as follows:
@@ -108,7 +108,7 @@ The two submission methods are equivalent: you are free to choose based on your 
 ## **Installation instructions**
 
 
-> [:building_construction:  WORK IN PROGRESS! :building_construction:]
+> [!NOTE]
 > Students will be notified via Moodle once installation instructions become available
 
 <!-- To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
@@ -150,7 +150,7 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 
 ## **Downloading data**
 
-> [:building_construction:  WORK IN PROGRESS! :building_construction:]
+> [!NOTE]
 > Students will be notified via Moodle once data become available
 
 <!-- Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. Download the entire `data` folder and extract it in `brainstim-multimodal` (that is, the folder that contains your code). 

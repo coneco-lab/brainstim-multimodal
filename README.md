@@ -69,7 +69,8 @@ What **will** be evaluated is:
     - Students that miss one deadline cannot take the exam under Option A. Clearly, they can still take the exam under Option B
 3. **Mentioning and explaining all the relevant theoretical concepts in the assignments**: maximum 12 points
 4. **Clear formal writing**: maximum 4 points  
-    - :warning: Pay attention to this point! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes
+    > [!NOTE]
+    > Pay attention to this point! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes
 4. **_Cum laude_ awarded upon reaching 30/30, if one or more of the following conditions are met**: 
     - Continued active participation during _briefings/debriefings_
     - Ability to find and explain non-trivial connections between concepts 
@@ -87,7 +88,7 @@ The two submission methods are equivalent: you are free to choose based on your 
 
 :pushpin: **Note:** while the two submission methods are equally valid, this might be a good time to learn the basics of Git/GitHub. If you are interested, you can follow this [Git Tutorial](https://github.com/coneco-lab/git-tutorial) for more.
 
-## **Calendar**
+## **Calendar :building_construction:**
 
 > [!NOTE]
 > Students will be notified via Moodle once the calendar becomes available
@@ -105,7 +106,7 @@ The two submission methods are equivalent: you are free to choose based on your 
 4. **Computing & assessing a TEP** 
     - _Briefing_ xx/yy/zz at ..., _Debriefing_ xx/yy/zz at ... -->
 
-## **Installation instructions**
+## **Installation instructions :building_construction:**
 
 
 > [!NOTE]
@@ -148,7 +149,7 @@ Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pi
 
 :raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this.  -->
 
-## **Downloading data**
+## **Downloading data :building_construction:**
 
 > [!NOTE]
 > Students will be notified via Moodle once data become available

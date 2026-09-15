@@ -69,13 +69,14 @@ What **will** be evaluated is:
     - Students that miss one deadline cannot take the exam under Option A. Clearly, they can still take the exam under Option B
 3. **Mentioning and explaining all the relevant theoretical concepts in the assignments**: maximum 12 points
 4. **Clear formal writing**: maximum 4 points  
-    > [!NOTE]
-    > Pay attention to this point! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes
 4. **_Cum laude_ awarded upon reaching 30/30, if one or more of the following conditions are met**: 
     - Continued active participation during _briefings/debriefings_
     - Ability to find and explain non-trivial connections between concepts 
     - Ability to write one's own implementations or extend/improve Matteo's
     - Clearly demonstrated interest in the subject, beyond the minimum required  
+
+> [!WARNING]
+> Pay extra attention to clear formal writing: it is a real evaluation criterion! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes. Informal or unclear writing might significantly affect your grade 
 
 ### Submission instructions
 

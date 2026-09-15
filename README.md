@@ -33,7 +33,7 @@ All the code is contained in a single Jupyter Notebook called `pipeline.ipynb`. 
 
 The goal of the hands-on activity is to progressively populate `pipeline.ipynb` with all the basic steps of a TMS-EEG preprocessing pipeline, complementing the actual code with explanations about what it does, its scientific goal and its effects on the data (for example: _"The following code applies a low-pass filter to the data to attenuate high-frequency noise. As can be seen in the plots, the filter does this and that to the signal"_). 
 
-The hands-on activities will unfold over a series of in-person meetings. The meetings will come in pairs: a _briefing_ and a corresponding _debriefing_, interleaved by home assignments for the students. The home assignments will count for the final exam if students choose to take the exam under Option A (see [For the exam](#for-the-exam)).
+The hands-on activities will unfold over a series of in-person meetings. The meetings will come in pairs: a _briefing_ and a corresponding _debriefing_, interleaved by home assignments for the students. The home assignments will count for the final exam if students choose to take the exam under Option B (see [For the exam](#for-the-exam)).
 
 - In the _briefing_, Matteo will lead a discussion on the main TMS-EEG preprocessing steps, their scientific goal and their Python implementations. This will help revise the signal processing theory introduced by prof. Belardinelli and translate it into practice. Students will leave the meeting with working Python code provided by Matteo, but they will be free to write their own implementation should they have Python skills at the appropriate level. In this case, the appropriateness of their implementation will be evaluated for the exam
 - At home, the students will run the code presented during the _briefing_ and comment extensively on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells **in an academic style**. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 08:00 AM on the day of the _debriefing_ (that is, if the _debriefing_ is on Monday, submit your work by 08:00 AM on Monday)
@@ -43,8 +43,8 @@ The hands-on activities will unfold over a series of in-person meetings. The mee
 
 As explained in class, students that attend the Brain Stimulation & Multimodal Electrophysiological Recording course have two options: 
 
-1. **Option A:** For Miniussi's part, take an oral exam. For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted at precise deadlines, as described above
-2. **Option B:** Take an oral exam about the whole program (Miniussi's and Belardinelli's)
+1. **Option A:** Take an oral exam about the whole program (Miniussi's and Belardinelli's)
+2. **Option B:** For Miniussi's part, take an oral exam. For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted at precise deadlines, as described above
 
 In both cases, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
 
@@ -52,7 +52,7 @@ In both cases, the final grade will be the weighted average of the two grades (M
 
 Everyone is free to attend the meetings, meaning that attendance does not imply a commitment to carrying out the assignments and respecting the deadlines. 
 
-However, students that want to take the exam under Option A **must**:
+However, students that want to take the exam under Option B **must**:
 - Attend _briefings_ and _debriefings_ 
 - Submit all home assignments by the deadline
 
@@ -60,13 +60,13 @@ A maximum of one absence to the meetings will be tolerated (though discouraged).
 
 ### Evaluation criteria for the hands-on activity 
 
-Students that decide to take the exam under Option A will be evaluated for their hands-on activities. Students are not expected to enter the course with advanced coding skills, so their ability to read and write the code will **not** be an evaluation criterion. 
+Students that decide to take the exam under Option B will be evaluated for their hands-on activities. Students are not expected to enter the course with advanced coding skills, so their ability to read and write the code will **not** be an evaluation criterion. 
 
 What **will** be evaluated is:
 
 1. **Participation to all _briefings_ and _debriefings_**: 6 points
 2. **Submitting all the assignments by the deadline**:  8 points
-    - Students that miss one deadline cannot take the exam under Option A. Clearly, they can still take the exam under Option B
+    - Students that miss one deadline cannot take the exam under Option B. Clearly, they can still take the exam under Option A
 3. **Mentioning and explaining all the relevant theoretical concepts in the assignments**: maximum 12 points
 4. **Clear formal writing**: maximum 4 points  
 4. **_Cum laude_ awarded upon reaching 30/30, if one or more of the following conditions are met**: 
@@ -76,7 +76,15 @@ What **will** be evaluated is:
     - Clearly demonstrated interest in the subject, beyond the minimum required  
 
 > [!WARNING]
-> Pay extra attention to clear formal writing: it is a real evaluation criterion! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes. Informal or unclear writing might significantly affect your grade 
+> Pay attention to clear formal writing: it is a real evaluation criterion! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes. Informal or unclear writing might significantly affect your grade. 
+>
+> **Good, sufficiently formal example:** 
+>
+> "As can be seen in the plot, the signal is characterised by high-amplitude fluctuations"
+>
+> **Bad, too informal example:**
+>
+> "you see that the eeg goes up and down very fast"
 
 ### Submission instructions
 

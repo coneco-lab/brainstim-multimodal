@@ -1,6 +1,6 @@
 # **Brain Stimulation & Multimodal Electrophysiological Recording &mdash; Hands-on!**
 
-This repository contains Python code for the hands-on TMS-EEG preprocessing activity offered as part of the [Brain Stimulation & Multimodal Electrophysiological Recording](https://unitn.coursecatalogue.cineca.it/insegnamenti/2025/50512_653501_96292/2011/50513/10168?annoOrdinamento=2011&coorte=2024) course, taught by prof. Carlo Miniussi and prof. Paolo Belardinelli at the [Master's Degree in Cognitive Science](https://corsi.unitn.it/en/cognitive-science), University of Trento (academic year 2025/2026).
+This repository contains Python code for the hands-on TMS-EEG preprocessing activity offered as part of the [Brain Stimulation & Multimodal Electrophysiological Recording](https://unitn.coursecatalogue.cineca.it/af/2026?corso=0716H&annoOrdinamento=2026&pds=P0107&coorte=2026&ad=154156&lingua=eng&sede=1642&modDid=C&linguaCC=it) course, taught by prof. Carlo Miniussi and prof. Paolo Belardinelli at the [Master's Degree in Cognitive Science](https://corsi.unitn.it/en/cognitive-science), University of Trento (academic year 2026/2027).
 
 :arrow_right_hook: **Repository structure**
 
@@ -11,7 +11,7 @@ brainstim-multimodal/
 ├── scripts/                   # a full pipeline structured as Python scripts
 ├── README.md                  # the file you are reading, the information you need
 ├── brainstim-multimodal.yml   # installation file (see below)
-├── pipeline.ipynb             # the document to use for home assignments
+├── pipeline.ipynb             # the document to use for home assignments (coming soon)
 └── pipeline_debriefing.ipynb  # the debriefing (published after assignment deadlines) 
 ```
 
@@ -35,18 +35,16 @@ The goal of the hands-on activity is to progressively populate `pipeline.ipynb` 
 
 The hands-on activities will unfold over a series of in-person meetings. The meetings will come in pairs: a _briefing_ and a corresponding _debriefing_, interleaved by home assignments for the students. The home assignments will count for the final exam if students choose to take the exam under Option A (see [For the exam](#for-the-exam)).
 
-- In the _briefing_, Matteo will discuss a set of preprocessing steps, their scientific goal and their Python implementations. This will help revise the signal processing theory introduced by prof. Belardinelli and translate it into practice. Students will leave the meeting with working Python code provided by Matteo, but they will be free to write their own implementation should they have Python skills at the appropriate level. In this case, the appropriateness of their implementation will be evaluated for the exam
-- At home, the students will run the code presented during the _briefing_ and comment extensively on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells in an academic style. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 08:00 AM on the day of the _debriefing_ (that is, if the _debriefing_ is on Monday, submit your work by 08:00 AM on Monday)
+- In the _briefing_, Matteo will lead a discussion on the main TMS-EEG preprocessing steps, their scientific goal and their Python implementations. This will help revise the signal processing theory introduced by prof. Belardinelli and translate it into practice. Students will leave the meeting with working Python code provided by Matteo, but they will be free to write their own implementation should they have Python skills at the appropriate level. In this case, the appropriateness of their implementation will be evaluated for the exam
+- At home, the students will run the code presented during the _briefing_ and comment extensively on its outputs, applying the concepts that they have learned in class. In this phase, students will work on their own copy of `pipeline.ipynb`, writing their comments in the appropriate text cells **in an academic style**. Students are expected to work independently, but Matteo will be available via email to help them solve technical problems or clarify any doubts. At the end of their work, students will submit their own copy of `pipeline.ipynb`, complete with comments, by 08:00 AM on the day of the _debriefing_ (that is, if the _debriefing_ is on Monday, submit your work by 08:00 AM on Monday)
 - In the _debriefing_, Matteo will provide the students with the correct comments and lead an in-depth discussion of any issues (technical or theoretical) that may arise. After the _debriefing_, Matteo will update this repository with his own version of `pipeline.ipynb`, containing the correct comments for future reference and comparison
 
 ## For the exam
 
 As explained in class, students that attend the Brain Stimulation & Multimodal Electrophysiological Recording course have two options: 
 
-1. **Option A:** carry out two practical activities &mdash; one for Miniussi's part, one for Belardinelli's part:
-    - For Miniussi's part (Brain Stimulation), write a grant proposal for a study involving brain stimulation and multimodal electrophysiological recordings. This part is not addressed by the present repository
-    - For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted at precise deadlines, as described above 
-2. **Option B:** take an oral exam about Miniussi's part and one about Belardinelli's part, in any exam session
+1. **Option A:** For Miniussi's part, take an oral exam. For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted at precise deadlines, as described above
+2. **Option B:** Take an oral exam about the whole program (Miniussi's and Belardinelli's)
 
 In both cases, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
 
@@ -71,6 +69,7 @@ What **will** be evaluated is:
     - Students that miss one deadline cannot take the exam under Option A. Clearly, they can still take the exam under Option B
 3. **Mentioning and explaining all the relevant theoretical concepts in the assignments**: maximum 12 points
 4. **Clear formal writing**: maximum 4 points  
+    - :warning: Pay attention to this point! Write as you would in a written exam, a thesis, or a scientific paper. Do not write as you would in your own notes
 4. **_Cum laude_ awarded upon reaching 30/30, if one or more of the following conditions are met**: 
     - Continued active participation during _briefings/debriefings_
     - Ability to find and explain non-trivial connections between concepts 
@@ -81,8 +80,8 @@ What **will** be evaluated is:
 
 Students have two alternative ways to submit their work:
 
-1. **Without using Git/GitHub:** students that do not use Git/GitHub can download this repository as described below and, every time there is a deadline, send their own copy of `pipeline.ipynb` to prof. Belardinelli via email, using their University address and cc-ing Matteo. Please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
-2. **Using Git/GitHub:** students that use Git/GitHub can fork this repository, work on their own copy of `pipeline.ipynb`, and push their changes to their fork before each deadline 
+1. **Using Git/GitHub:** students that use Git/GitHub can fork this repository, work on their own copy of `pipeline.ipynb`, push their changes to their fork before each deadline, **and notify prof. Belardinelli <u>(cc-ing Matteo)</u> upon doing it**  
+2. **Without using Git/GitHub:** students that do not use Git/GitHub can download this repository as described below and, every time there is a deadline, send their own copy of `pipeline.ipynb` to prof. Belardinelli via email, using their University address and cc-ing Matteo. Please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
 
 The two submission methods are equivalent: you are free to choose based on your taste. What matters is that you do not miss the deadlines. 
 
@@ -90,22 +89,30 @@ The two submission methods are equivalent: you are free to choose based on your 
 
 ## **Calendar**
 
-Meetings will be as follows:
+> [:building_construction:  WORK IN PROGRESS! :building_construction:]
+> Students will be notified via Moodle once the calendar becomes available
 
-0. **Installations check, general Q&As** :white_check_mark:
-    - 18/11/2025 at 15:00 (Room 7)
-1. **Basic preprocessing:** rationale, interpolating the pulse artifact, filtering :white_check_mark:
-    - _Briefing_ 20/11/2025 at 15:00 (Room 12), _Debriefing_ 26/11/2025 at 13:00 (Room 5) 
-2. **Independent components analysis (ICA):** rationale, fitting, components selection :white_check_mark:
-    - _Briefing_ 28/11/2025 at 08:30 (Room 3), _Debriefing_ 05/12/2025 at 08:30 (Room 3)
-3. **Manual artifact rejection:** rationale and execution :white_check_mark:
-    - _Briefing_ 05/12/2025 at 08:30 (Room 3), _Debriefing_ 12/12/2025 at 08:30 (Room 3)
-4. **Computing & assessing a TEP** :white_check_mark:
-    - _Briefing_ 12/12/2025 at 08:30 (Room 3), _Debriefing_ in writing after 19 December 2025
+<!-- Meetings will be as follows:
+
+0. **Installations check, general Q&As** 
+    - xx/yy/zz at ...
+1. **Basic preprocessing** rationale, interpolating the pulse artifact, filtering 
+    - _Briefing_ xx/yy/zz at ..., _Debriefing_ xx/yy/zz at ... 
+2. **Manual artifact rejection:** rationale and execution 
+- _Briefing_ xx/yy/zz at ..., _Debriefing_ xx/yy/zz at ...
+3. **Independent components analysis (ICA):** rationale, fitting, components selection 
+    - _Briefing_ xx/yy/zz at ..., _Debriefing_ xx/yy/zz at ...
+4. **Computing & assessing a TEP** 
+    - _Briefing_ xx/yy/zz at ..., _Debriefing_ xx/yy/zz at ... -->
 
 ## **Installation instructions**
 
-To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
+
+> [:building_construction:  WORK IN PROGRESS! :building_construction:]
+> Students will be notified via Moodle once installation instructions become available
+
+<!-- To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
+
 
 ### Option 1: Without using Git
 
@@ -139,10 +146,14 @@ python -m ipykernel install --user --name brainstim-multimodal --display-name "b
 
 Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window and you should be all set!
 
-:raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this. 
+:raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this.  -->
 
 ## **Downloading data**
-Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. Download the entire `data` folder and extract it in `brainstim-multimodal` (that is, the folder that contains your code). 
+
+> [:building_construction:  WORK IN PROGRESS! :building_construction:]
+> Students will be notified via Moodle once data become available
+
+<!-- Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. Download the entire `data` folder and extract it in `brainstim-multimodal` (that is, the folder that contains your code). 
 
 The end result should be: 
 
@@ -155,7 +166,7 @@ brainstim-multimodal/
 ├── README.md                 
 ├── brainstim-multimodal.yml   
 └── pipeline.ipynb             
-```
+``` -->
 
 
 ## Contacts
@@ -164,6 +175,6 @@ For scientific, technical, or logistic questions about the hands-on activity:
 - :question: Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
 - :mailbox: matteo [dot] dematola [at] unitn [dot] it
 
-For any other questions (e.g., course contents, evaluation criteria, submission methods, exam rules):
+<!-- For any other questions (e.g., course contents, evaluation criteria, submission methods, exam rules):
 - :question: Carlo Miniussi ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0053912/Curriculum)) and Paolo Belardinelli ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0039355/Curriculum))
-- :mailbox: carlo [dot] miniussi [at] unitn [dot] it and paolo [dot] belardinelli [at] unitn [dot] it 
+- :mailbox: carlo [dot] miniussi [at] unitn [dot] it and paolo [dot] belardinelli [at] unitn [dot] it  -->

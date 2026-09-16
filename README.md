@@ -44,7 +44,7 @@ The hands-on activities will unfold over a series of in-person meetings. The mee
 As explained in class, students that attend the Brain Stimulation & Multimodal Electrophysiological Recording course have two options: 
 
 1. **Option A:** Take an oral exam about the whole program (Miniussi's and Belardinelli's)
-2. **Option B:** For Miniussi's part, take an oral exam. For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted at precise deadlines, as described above
+2. **Option B:** For Miniussi's part, take a written test during the teaching term (as explained in class). For Belardinelli's part, attend the hands-on preprocessing activity described in this repository and carry out the related assignments. Assignments for the hands-on activity must be submitted at precise deadlines, as described above
 
 In both cases, the final grade will be the weighted average of the two grades (Miniussi's and Belardinelli's).
 

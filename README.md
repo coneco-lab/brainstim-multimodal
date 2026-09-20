@@ -80,7 +80,7 @@ What **will** be evaluated is:
 >
 > **Good, sufficiently formal example:** 
 >
-> "As can be seen in the plot, the signal is characterised by high-amplitude fluctuations"
+> "As can be seen in the plot, the signal is characterised by high-frequency fluctuations"
 >
 > **Bad, too informal example:**
 >

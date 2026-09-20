@@ -67,7 +67,7 @@ A maximum of one absence to the meetings will be tolerated (though discouraged).
 >
 > 1. **Participation to all _briefings_ and _debriefings_: 6 points**
 > 2. **Submitting all the assignments by the deadline:  8 points**
-    - Students that miss one deadline cannot take the exam under Option B. Clearly, they can still take the exam under Option A
+>    - Students that miss one deadline cannot take the exam under Option B. Clearly, they can still take the exam under Option A
 > 3. **Mentioning and explaining all the relevant theoretical concepts in the assignments: maximum 12 points**
 > 4. **Clear formal writing: maximum 4 points**  
 > 5. **_Cum laude_ awarded upon reaching 30/30, if one or more of the following conditions are met**: 

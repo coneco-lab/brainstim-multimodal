@@ -8,9 +8,9 @@ This repository contains Python code for the hands-on TMS-EEG preprocessing acti
 brainstim-multimodal/
 ├── docs/                      # text documents with supplementary materials & tutorials
 ├── files/                     # supplementary files (e.g., images)
-├── scripts/                   # a full pipeline structured as Python scripts
+├── scripts/                   # a full pipeline structured as Python scripts (coming soon)
 ├── README.md                  # the file you are reading, the information you need
-├── brainstim-multimodal.yml   # installation file (see below)
+├── brainstim-multimodal.yml   # installation file (wait for instructions)
 ├── pipeline.ipynb             # the document to use for home assignments (coming soon)
 └── pipeline_debriefing.ipynb  # the debriefing (published after assignment deadlines) 
 ```

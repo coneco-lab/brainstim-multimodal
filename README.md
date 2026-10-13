@@ -10,8 +10,8 @@ brainstim-multimodal/
 ├── files/                     # supplementary files (e.g., images)
 ├── scripts/                   # a full pipeline structured as Python scripts (coming soon)
 ├── README.md                  # the file you are reading, the information you need
-├── brainstim-multimodal.yml   # installation file (wait for instructions)
-├── pipeline.ipynb             # the document to use for home assignments (coming soon)
+├── brainstim-multimodal.yml   # installation file 
+├── pipeline.ipynb             # the document to use for home assignments 
 └── pipeline_debriefing.ipynb  # the debriefing (published after assignment deadlines) 
 ```
 
@@ -23,9 +23,9 @@ brainstim-multimodal/
     - [Evaluation criteria for the hands-on activity](#evaluation-criteria-for-the-hands-on-activity)
     - [Submission instructions](#submission-instructions)
 - [Calendar](#calendar-calendar)
-<!-- - [Installation instructions](#installation-instructions)
+- [Installation instructions](#installation-instructions)
 - [Downloading data](#downloading-data) 
-- [Contacts](#contacts) -->
+- [Contacts](#contacts)
 
 ## General facts
 
@@ -113,18 +113,14 @@ Meetings will be as follows:
 4. **Computing & assessing a TEP** 
     - _Briefing_ 06/11/2026 at 15:30 (Room 1), _Debriefing_ in writing
 
-## **Installation instructions :building_construction:**
+## **Installation instructions**
 
-
-> [!NOTE]
-> Students will be notified via Moodle once installation instructions become available
-
-<!-- To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
+To participate in the hands-on activities, you will need a laptop with a working Python installation and all the necessary Python-based software like [MNE-Python](https://mne.tools/stable/index.html). To this end, you will need to go through the steps below.
 
 
 ### Option 1: Without using Git
 
-1. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_). **Do not go any further than that**.
+1. Click on [this](docs/install-python-conda.md) link and follow the instructions you find there. Once you are done, come back here and proceed to point 2
 2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
 ![Download ZIP](files/where-to-download-zip.png)
 3. Once the download is complete, extract the folder in a directory of your choice
@@ -136,12 +132,16 @@ conda env create -f brainstim-multimodal.yml
 python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
 ```
 
-Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window and you should be all set!
+Now run the command `jupyter lab pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window. At this point, look at the top right corner of your screen. You should see something like the following:
+
+![Choose kernel](files/choose-kernel.png)
+
+Clicking on it will open a dialog box where you can select one of multiple Python environments. Make sure you select the option called `brainstim-multimodal` and that `Always start the preferred kernel` is flagged. Then, click `Select` and you should be all set!
 
 ### Option 2: Using Git
 
 1. If you don't have it, install Git: https://git-scm.com/
-2. Click on [this](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md) link and follow the instructions until point 1 included (_Install Jupyter in the base environment_). **Do not go any further than that**.
+2. Click on [this](docs/install-python-conda.md) link and follow the instructions you find ther. Once you are done, come back here and proceed to point 3
 3. In a terminal (if Linux/MacOS) or Anaconda Prompt (if Windows), run the following code:
 
 ```
@@ -152,16 +152,17 @@ conda env create -f brainstim-multimodal.yml
 python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
 ```
 
-Finally, run the command `jupyter notebook pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window and you should be all set!
+Now run the command `jupyter lab pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window. At this point, look at the top right corner of your screen. You should see something like the following:
 
-:raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this.  -->
+![Choose kernel](files/choose-kernel.png)
 
-## **Downloading data :building_construction:**
+Clicking on it will open a dialog box where you can select one of multiple Python environments. Make sure you select the option called `brainstim-multimodal` and that `Always start the preferred kernel` is flagged. Then, click `Select` and you should be all set!
 
-> [!NOTE]
-> Students will be notified via Moodle once data become available
+:raising_hand: If you have problems with any of the steps above you are welcome to seek assistance from Matteo, via email or in person. Meeting 0 will be entirely dedicated to this. 
 
-<!-- Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. Download the entire `data` folder and extract it in `brainstim-multimodal` (that is, the folder that contains your code). 
+## **Downloading data**
+
+Once you have set up your computer, you can download TMS-EEG from [this](https://drive.google.com/drive/folders/14hADNT64d8RZv6aL9j0tYf-SIAyqN0AT) Google Drive link. Download the entire `data` folder and extract it in `brainstim-multimodal` (that is, the folder that contains your code). 
 
 The end result should be: 
 
@@ -174,8 +175,7 @@ brainstim-multimodal/
 ├── README.md                 
 ├── brainstim-multimodal.yml   
 └── pipeline.ipynb             
-``` -->
-
+```
 
 ## Contacts
 

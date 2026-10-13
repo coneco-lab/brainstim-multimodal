@@ -124,12 +124,14 @@ To participate in the hands-on activities, you will need a laptop with a working
 2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
 ![Download ZIP](files/where-to-download-zip.png)
 3. Once the download is complete, extract the folder in a directory of your choice
-4. Open a terminal (if Linux/Mac) or Anaconda Prompt (if Windows) and run the following code:
+4. Open a terminal (if Linux/Mac) or Anaconda Prompt (if Windows) and enter the following commands, executing them one by one:
 
 ```
 cd <insert the directory where you have extracted the zipped folder>
 conda env create -f brainstim-multimodal.yml
+conda activate brainstim-multimodal
 python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
+conda deactivate
 ```
 
 Now run the command `jupyter lab pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window. At this point, look at the top right corner of your screen. You should see something like the following:
@@ -142,14 +144,16 @@ Clicking on it will open a dialog box where you can select one of multiple Pytho
 
 1. If you don't have it, install Git: https://git-scm.com/
 2. Click on [this](docs/install-python-conda.md) link and follow the instructions you find. Once you are done, come back here and proceed to point 3
-3. In a terminal (if Linux/Mac) or Anaconda Prompt (if Windows), run the following code:
+3. In a terminal (if Linux/Mac) or Anaconda Prompt (if Windows) enter the following commands, executing them one by one:
 
 ```
 cd <insert the directory where you want to save this project>
 git clone https://github.com/coneco-lab/brainstim-multimodal.git
 cd brainstim-multimodal
 conda env create -f brainstim-multimodal.yml
+conda activate brainstim-multimodal
 python -m ipykernel install --user --name brainstim-multimodal --display-name "brainstim-multimodal"
+conda deactivate
 ```
 
 Now run the command `jupyter lab pipeline.ipynb`. This should open `pipeline.ipynb` in a browser window. At this point, look at the top right corner of your screen. You should see something like the following:

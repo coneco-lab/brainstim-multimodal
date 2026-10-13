@@ -37,11 +37,3 @@ conda install -c conda-forge jupyterlab
 This will install Jupyter and all its dependencies in the base environment. If you are asked to confirm the installation, type `y` and press enter.
 
 Once the installation is complete, you can go back to [the previous page](../README.md#installation-instructions) and keep following the instructions.
-
----
-
-> [!NOTE]
-> The instructions above are modified from Luigi Petrucco's installation guide, which was written for students of CIMeC's PhD course in Cognitive & Brain Sciences 
-> (2025 iteration). The original one can be found [here](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md).
->
-> The link to the original version is provided for citation only: students of Brain Stimulation & Multimodal Electrophysiological Recording should only follow the excerpt given in the present document. 

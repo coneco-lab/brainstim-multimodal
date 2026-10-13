@@ -120,11 +120,11 @@ To participate in the hands-on activities, you will need a laptop with a working
 
 ### Option 1: Without using Git
 
-1. Click on [this](docs/install-python-conda.md) link and follow the instructions you find there. Once you are done, come back here and proceed to point 2
+1. Click on [this](docs/install-python-conda.md) link and follow the instructions you find. Once you are done, come back here and proceed to point 2
 2. In this repository, click on the green `Code` button, as in the image below. Once you have done that, click on `Download ZIP`
 ![Download ZIP](files/where-to-download-zip.png)
 3. Once the download is complete, extract the folder in a directory of your choice
-4. Open a terminal (if Linux/MacOS) or Anaconda Prompt (if Windows) and run the following code:
+4. Open a terminal (if Linux/Mac) or Anaconda Prompt (if Windows) and run the following code:
 
 ```
 cd <insert the directory where you have extracted the zipped folder>
@@ -141,8 +141,8 @@ Clicking on it will open a dialog box where you can select one of multiple Pytho
 ### Option 2: Using Git
 
 1. If you don't have it, install Git: https://git-scm.com/
-2. Click on [this](docs/install-python-conda.md) link and follow the instructions you find ther. Once you are done, come back here and proceed to point 3
-3. In a terminal (if Linux/MacOS) or Anaconda Prompt (if Windows), run the following code:
+2. Click on [this](docs/install-python-conda.md) link and follow the instructions you find. Once you are done, come back here and proceed to point 3
+3. In a terminal (if Linux/Mac) or Anaconda Prompt (if Windows), run the following code:
 
 ```
 cd <insert the directory where you want to save this project>
@@ -182,7 +182,3 @@ brainstim-multimodal/
 For scientific, technical, or logistic questions about the hands-on activity: 
 - :question: Matteo De Matola ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0247884/Curriculum), [GitHub](https://github.com/matteo-d-m))
 - :mailbox: matteo [dot] dematola [at] unitn [dot] it
-
-<!-- For any other questions (e.g., course contents, evaluation criteria, submission methods, exam rules):
-- :question: Carlo Miniussi ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0053912/Curriculum)) and Paolo Belardinelli ([UniTN](https://webapps.unitn.it/du/en/Persona/PER0039355/Curriculum))
-- :mailbox: carlo [dot] miniussi [at] unitn [dot] it and paolo [dot] belardinelli [at] unitn [dot] it  -->

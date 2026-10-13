@@ -37,6 +37,7 @@ conda install -c conda-forge jupyterlab
 This will install Jupyter and all its dependencies in the base environment. If you are asked to confirm the installation, type `y` and press enter.
 
 Once the installation is complete, you can go back to [the previous page](../README.md#installation-instructions) and keep following the instructions.
+
 ---
 
 > [!NOTE]

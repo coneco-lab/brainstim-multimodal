@@ -1,7 +1,8 @@
 # Installing Python Through Miniconda 
 
-## Python installation
-We will be managing our local Python installation using `conda`. `conda` is a package manager, which means it is a program that will help you install and update Python and its libraries. It is also a virtual environment manager, which means it will help you create and manage different Python environments.
+We will be managing our Python installation using `conda`. `conda` is a package and environment manager &mdash; that is, software that orchestrates the interaction between other software within isolated virtual spaces called _environments_. Environments are _"self-contained, isolated spaces where you can install specific versions of software, including dependencies, libraries, and Python versions. This isolation helps avoid conflicts between package versions and ensures that your projects have the exact libraries and tools they need"_ (source: Anaconda documentation &mdash; accessed December 2025). In other words, Anaconda allows you to partition your computer into isolated virtual compartments, making sure that each project has all the necessary software and avoiding any conflicts. 
+
+There exist two versions of Anaconda: one is called Anaconda Distribution, the other is called Miniconda. We will use Miniconda because it has all the features we need and is much lighter than Anaconda Distribution. Installing Miniconda will automatically install base Python, while domain-specific Python packages (for example, MNE-Python) will be installed later with a dedicated operation.
 
 ### 1. Download and install (Mini)`conda`
 Go [here](https://www.anaconda.com/download/success?reg=skipped-miniconda) and download the latest **Miniconda** installer for your operating system. 
@@ -45,4 +46,4 @@ You should see a browser opening with a Jupyter notebook interface. If you get s
 > [!NOTE]
 > The instructions above are modified from Luigi Petrucco's installation guide, which was written for students of CIMeC's PhD course in Cognitive & Brain Sciences 
 > (2025 iteration). The original one can be found [here](https://github.com/vigji/python-cimec-2025/blob/main/docs/python-installation.md).
-> The link to the original version is provided for citation only: students of Brain Stimulation & Multimodal Electrophysiological Recording should only follow the excerpt given > above. 
+> The link to the original version is provided for citation only: students of Brain Stimulation & Multimodal Electrophysiological Recording should only follow the excerpt given above. 

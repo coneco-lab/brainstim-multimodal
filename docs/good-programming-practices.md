@@ -194,7 +194,7 @@ The following cases occur frequently in settings where people write and share th
 All three cases are undesirable and can be avoided using environments or containers. 
 
 ## 5.1. Anaconda environments
-Taking part in the hands-on activity required you to install and use Anaconda. Anaconda is a package and environment manager &mdash; that is, software that orchestrates the interactions between other softwares, allowing users to run multiple computational projects on the same machine without creating conflicts between them. 
+Anaconda is a package and environment manager &mdash; that is, software that orchestrates the interactions between other softwares, allowing users to run multiple computational projects on the same machine without creating conflicts between them. 
 
 When you install Anaconda, you get:
 

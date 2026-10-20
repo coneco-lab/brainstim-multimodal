@@ -1,13 +1,13 @@
-name: brainstim-multimodal
+name: try-env
 channels:
   - conda
   - conda-forge
-  - defaults
+  - defaultsbrainstim-multimodal
 dependencies:
   - python==3.12.1
   - numpy==1.26.3
   - scipy==1.11.4
   - mne==1.10.2
-  - matplotlib==3.8.2
+  - matplotlib
   - ipykernel
   - pip

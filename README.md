@@ -92,7 +92,7 @@ A maximum of one absence to the meetings will be tolerated (though discouraged).
 Students have two alternative ways to submit their work:
 
 1. **Using Git/GitHub:** students that use Git/GitHub can fork this repository, work on their own copy of `pipeline.ipynb`, push their changes to their fork before each deadline, **and notify prof. Belardinelli <u>(cc-ing Matteo)</u> upon doing it**  
-2. **Without using Git/GitHub:** students that do not use Git/GitHub can download this repository as described below and, every time there is a deadline, send their own copy of `pipeline.ipynb` to prof. Belardinelli via email, using their University address and cc-ing Matteo. Please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
+2. **Without using Git/GitHub:** every time there is a deadline, students that do not use Git/GitHub can send their own copy of `pipeline.ipynb` to prof. Belardinelli via email, using their University address and cc-ing Matteo. Please rename your file as `pipeline_name_surname_assignmentnumber.ipynb`: that is, if your name is Jane Doe and you are submitting assignment 1, rename your file as `pipeline_jane_doe_1.ipynb`
 
 The two submission methods are equivalent: you are free to choose based on your taste. What matters is that you do not miss the deadlines. 
 
